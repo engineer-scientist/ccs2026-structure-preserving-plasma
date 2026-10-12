@@ -1,0 +1,11 @@
+{"job": "7738002 (Polaris, debug, 2 nodes); ex2 vs PETSc 3.26 CUDA build; opts v2 (CG+GAMG), dt=0.05, 100 steps",
+ "runs": [
+  {"np": 1,  "ppn": 1,  "steps": 100, "particles": 51200,   "wall_s": 30.4,  "TSStep_s": 19.014, "DMSwarmMigrate_s": 20.153, "SNESSolve_s": 0.15532, "KSPSolve_s": 0.061246},
+  {"np": 32, "ppn": 16, "steps": 100, "particles": 1638400, "wall_s": 170.8, "TSStep_s": 86.536, "DMSwarmMigrate_s": 151.49, "SNESSolve_s": 1.1122, "KSPSolve_s": 0.70831, "nodes_used": 2},
+  {"np": 32, "ppn": 32, "steps": 100, "particles": 1638400, "wall_s": 185.0, "TSStep_s": 95.906, "DMSwarmMigrate_s": 166.94, "SNESSolve_s": 0.81839, "KSPSolve_s": 0.48469},
+  {"np": 64, "ppn": 32, "steps": 100, "note": "FAILED step 1 (CG indefinite PC); particles at first E line 2,978,050 of 3,276,800: lost in migration because |v|max*dt=0.3 > L/P=0.196"},
+  {"np": 4, "tag": "gpu_np4", "note": "FAILED at startup: PETSc CUDA build requires GPU-aware MPI (set MPICH_GPU_SUPPORT_ENABLED=1 or -use_gpu_aware_mpi 0)"}
+ ],
+ "W_rel_drift_max_100steps": {"np1": 1.125e-05, "np32": 1.139e-05},
+ "note": "Total energy identical for ppn16 vs ppn32 to 1e-15; 2-node np32 is 10% faster than 1-node np32 (less per-node memory contention)."
+}

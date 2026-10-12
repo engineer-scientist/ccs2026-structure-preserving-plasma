@@ -1,0 +1,25 @@
+From 173b049b1c4a443ebe6f6b852b5091b83e618917 Mon Sep 17 00:00:00 2001
+From: grokbot <grokbot@local>
+Date: Sun, 11 Oct 2026 22:05:09 -0400
+Subject: [PATCH 2/2] test: tolerate unparseable VERIFY
+
+---
+ test_verify_contract.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/test_verify_contract.py b/test_verify_contract.py
+index 5a8583e..0e1070e 100644
+--- a/test_verify_contract.py
++++ b/test_verify_contract.py
+@@ -8,7 +8,7 @@ for m, f, extra in cases:
+     cmd = f'{P} -field {f} -method {m} -dt 0.2 -steps 50000 -nout 50000 -u0 1.1,0,0,0,0.004,0.003 -o /tmp/vc.dat -snes_rtol 1e-14 -snes_atol 1e-15 {extra}'
+     out = subprocess.run(cmd.split(), capture_output=True, text=True).stdout
+     r = vc.check(out, contract)
+-    rows.append({'method': m, 'field': f, 'pass': r['pass'], 'failures': r['failures'], 'invariants': r['records'][0]['invariants'] if r['records'] else None})
++    rows.append({'method': m, 'field': f, 'pass': r['pass'], 'failures': r['failures'], 'invariants': r['records'][0].get('invariants') if r['records'] else None})
+     print(m, f, 'PASS' if r['pass'] else 'FAIL', r['failures'])
+ assert vc.check('no verify line here')['pass'] is False
+ json.dump(rows, open('/workspace/research/results/verify_contract_test.json', 'w'), indent=1)
+-- 
+2.47.3
+

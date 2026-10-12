@@ -1,0 +1,19 @@
+start Mon Oct 12 05:56:48 AM UTC 2026
+ws_fix_np256 np=256 ppn=32 nx=65536 L=804.247719318987 dt=0.05 steps=100 fix=1 particles=13107200 rc=0 Np_first=13107200 Np_last=13107200 wall_s=55.0088 extra=
+ws_fix_np128 np=128 ppn=32 nx=32768 L=402.123859659494 dt=0.05 steps=100 fix=1 particles=6553600 rc=0 Np_first=6553600 Np_last=6553600 wall_s=51.2019 extra=
+ws_fix_np64 np=64 ppn=32 nx=16384 L=201.061929829747 dt=0.05 steps=100 fix=1 particles=3276800 rc=0 Np_first=3276800 Np_last=3276800 wall_s=48.5898 extra=
+ws_fix_np32 np=32 ppn=32 nx=8192 L=100.530964914873 dt=0.05 steps=100 fix=1 particles=1638400 rc=0 Np_first=1638400 Np_last=1638400 wall_s=44.6514 extra=
+ws_fix_np1 np=1 ppn=1 nx=256 L=3.14159265358979 dt=0.05 steps=100 fix=1 particles=51200 rc=0 Np_first=51200 Np_last=51200 wall_s=30.794 extra=
+gpu_fix_np32 np=32 ppn=4 nx=8192 L=100.530964914873 dt=0.05 steps=100 fix=1 particles=1638400 rc=0 Np_first=1638400 Np_last=1638400 wall_s=55.8438 extra=-dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+cpu4_fix_np32 np=32 ppn=4 nx=8192 L=100.530964914873 dt=0.05 steps=100 fix=1 particles=1638400 rc=0 Np_first=1638400 Np_last=1638400 wall_s=38.1764 extra=
+gpu_fix_np16 np=16 ppn=4 nx=4096 L=50.2654824574367 dt=0.05 steps=100 fix=1 particles=819200 rc=0 Np_first=819200 Np_last=819200 wall_s=49.1604 extra=-dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+cpu4_fix_np16 np=16 ppn=4 nx=4096 L=50.2654824574367 dt=0.05 steps=100 fix=1 particles=819200 rc=0 Np_first=819200 Np_last=819200 wall_s=36.3694 extra=
+gpu_fix_np8 np=8 ppn=4 nx=2048 L=25.1327412287183 dt=0.05 steps=100 fix=1 particles=409600 rc=0 Np_first=409600 Np_last=409600 wall_s=48.8612 extra=-dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+cpu4_fix_np8 np=8 ppn=4 nx=2048 L=25.1327412287183 dt=0.05 steps=100 fix=1 particles=409600 rc=0 Np_first=409600 Np_last=409600 wall_s=36.1147 extra=
+gpu_fix_np4 np=4 ppn=4 nx=1024 L=12.5663706143592 dt=0.05 steps=100 fix=1 particles=204800 rc=0 Np_first=204800 Np_last=204800 wall_s=56.2442 extra=-dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+cpu4_fix_np4 np=4 ppn=4 nx=1024 L=12.5663706143592 dt=0.05 steps=100 fix=1 particles=204800 rc=0 Np_first=204800 Np_last=204800 wall_s=46.0373 extra=
+ws_base_np256 np=256 ppn=32 nx=65536 L=804.247719318987 dt=0.05 steps=20 fix=0 particles=13107200 rc=0 Np_first=13107200 Np_last=13107200 wall_s=204.005 extra=
+ws_base_np128 np=128 ppn=32 nx=32768 L=402.123859659494 dt=0.05 steps=20 fix=0 particles=6553600 rc=0 Np_first=6553600 Np_last=6553600 wall_s=115.384 extra=
+ws_base_np64 np=64 ppn=32 nx=16384 L=201.061929829747 dt=0.05 steps=20 fix=0 particles=3276800 rc=0 Np_first=3276800 Np_last=3276800 wall_s=70.945 extra=
+ws_base_np32 np=32 ppn=32 nx=8192 L=100.530964914873 dt=0.05 steps=20 fix=0 particles=1638400 rc=0 Np_first=1638400 Np_last=1638400 wall_s=39.8021 extra=
+end Mon Oct 12 06:13:56 AM UTC 2026

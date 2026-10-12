@@ -1,0 +1,14 @@
+{"job": "7737974 (Polaris, debug, 1 node, 30 min walltime, killed at walltime during np=32)",
+ "petsc": "3.26.0 release, arch-polaris-cuda-opt (PrgEnv-gnu, cuda/13.0), CPU code path for ex2",
+ "per_rank": "256 x-cells, 200 v-cells => 51,200 particles per rank; 600 steps dt=0.05 to t=30",
+ "runs": [
+  {"np": 1,  "particles": 51200,   "wall_s": 181.4, "TSStep_s": 116.32, "DMSwarmMigrate_s": 120.93, "SNESSolve_s": 1.3527, "KSPSolve_s": 0.47044, "gamma": -0.16126, "W_rel_drift_max": 1.367e-05, "W_drift_over_peak_fieldE": 0.0684, "momentum_abs_max": 5.28e-08},
+  {"np": 4,  "particles": 204800,  "wall_s": 272.2, "TSStep_s": 167.74, "DMSwarmMigrate_s": 199.02, "SNESSolve_s": 2.9908, "KSPSolve_s": 1.4104, "gamma": -0.16118, "W_rel_drift_max": 1.305e-05, "W_drift_over_peak_fieldE": 0.0653, "momentum_abs_max": 1.94e-08},
+  {"np": 8,  "particles": 409600,  "wall_s": 380.7, "TSStep_s": 222.30, "DMSwarmMigrate_s": 303.26, "SNESSolve_s": 4.5413, "KSPSolve_s": 2.1629, "gamma": -0.16120, "W_rel_drift_max": 1.306e-05, "W_drift_over_peak_fieldE": 0.0653, "momentum_abs_max": 9.23e-09},
+  {"np": 16, "particles": 819200,  "wall_s": 599.0, "TSStep_s": 330.68, "DMSwarmMigrate_s": 516.44, "SNESSolve_s": 5.0742, "KSPSolve_s": 2.485,  "gamma": -0.16120, "W_rel_drift_max": 1.302e-05, "W_drift_over_peak_fieldE": 0.0651, "momentum_abs_max": 3.85e-09},
+  {"np": 32, "particles": 1638400, "note": "killed by walltime at step 204 (t=10.2)", "gamma_partial": -0.1676, "W_rel_drift_max_partial": 1.277e-05}
+ ],
+ "np1_series_t": [0.05,1.05,2.05,3.05,4.05,5.05,6.05,7.05,8.05,9.05,10.05,11.05,12.05,13.05,14.05,15.05,16.05,17.05,18.05,19.05,20.05,21.05,22.05,23.05,24.05,25.05,26.05,27.05,28.05,29.05],
+ "np1_series_EL2": [0.050129,0.022957,0.019189,0.020359,0.0083824,0.0173995,0.00143496,0.0133909,0.00261878,0.00930332,0.00455105,0.0056703,0.0049396,0.00290927,0.00450243,0.000994085,0.00358444,0.000426151,0.00265305,0.00121537,0.00180913,0.00131255,0.00117374,0.00132461,0.0007504,0.00103274,0.00109036,0.00109929,0.00088807,0.00088760],
+ "np1_series_Wrel": [0.0,1.0804e-05,5.5866e-06,1.1038e-05,8.3099e-06,1.0797e-05,1.0479e-05,1.1086e-05,1.1523e-05,1.1482e-05,1.2059e-05,1.1756e-05,1.2233e-05,1.2200e-05,1.2528e-05,1.2601e-05,1.2873e-05,1.2823e-05,1.2881e-05,1.2911e-05,1.2565e-05,1.2594e-05,1.2990e-05,1.2802e-05,1.3114e-05,1.3109e-05,1.3268e-05,1.3171e-05,1.3443e-05,1.3295e-05]
+}

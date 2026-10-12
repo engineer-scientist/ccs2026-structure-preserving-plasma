@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug
+#PBS -l walltime=00:30:00
+#PBS -l filesystems=home
+#PBS -j oe
+# submit: qsub -l select=2:system=polaris pilot4.pbs
+# Grok Bot pilot 4 (Polaris, 2 nodes): weak scaling with dt=0.01 so |v|max*dt < subdomain width L/P (no particle loss up to P~200)
+cd ${PBS_O_WORKDIR}
+module swap PrgEnv-nvidia PrgEnv-gnu >/dev/null 2>&1
+module load cuda/13.0 craype-accel-nvidia80 >/dev/null 2>&1
+module unload darshan xalt >/dev/null 2>&1
+export OMP_NUM_THREADS=1
+NN=$(wc -l < $PBS_NODEFILE)
+OUT=runs_polaris_p4_${NN}node_${PBS_JOBID%%.*}; mkdir -p $OUT
+BASE="$(cat common_opts.txt) -em_ksp_type gmres -em_ksp_rtol 1e-8 -em_ksp_atol 1e-9 -ts_time_step 0.01 -ts_max_time 1.0"
+echo "start $(date -u) nodes=$NN" > $OUT/summary.txt
+run() { NP=$1; P=$2; TAG=$3; shift 3; NX=$((256*NP)); T0=$(date +%s.%N)
+  mpiexec -n $NP --ppn $P --depth 1 --cpu-bind depth ./ex2 $BASE -ts_max_steps 100 -dm_plex_box_faces $NX "$@" -log_view :$OUT/logview_$TAG.txt > $OUT/ex2_$TAG.out 2>&1
+  RC=$?; echo "$TAG np=$NP ppn=$P nx=$NX particles=$((NX*200)) rc=$RC Np_first=$(grep '^E:' $OUT/ex2_$TAG.out | head -1 | awk '{print $13}') Np_last=$(grep '^E:' $OUT/ex2_$TAG.out | tail -1 | awk '{print $13}') wall_s=$(echo "$(date +%s.%N) - $T0" | bc)" >> $OUT/summary.txt; }
+run 64 32 np64_ppn32
+run 32 16 np32_ppn16
+for NP in 1 4 8 16 32; do run $NP $NP np$NP; done
+run 4 4 gpu_np4 -dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+echo "end $(date -u)" >> $OUT/summary.txt

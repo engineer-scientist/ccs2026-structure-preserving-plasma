@@ -1,0 +1,13 @@
+{"job": "8921878 (Aurora, debug, 1 node). ex2 built vs PETSc 3.26.0 CPU-only (~/grokbot-sp/petsc, arch-aurora-cpu-opt); Poisson opts v1 (GMRES+GAMG, ksp atol 1e-14)",
+ "per_rank": "256 x-cells, 200 v-cells => 51,200 particles per rank",
+ "runs": [
+  {"np": 1,  "steps": 600, "particles": 51200,  "wall_s": 131.6, "TSStep_s": 87.567, "DMSwarmMigrate_s": 90.96, "SNESSolve_s": 0.90043, "KSPSolve_s": 0.33589, "gamma": -0.16126, "W_rel_drift_max": 1.3672e-05, "W_drift_over_peak_fieldE": 0.068403, "momentum_abs_max": 5.2847e-08},
+  {"np": 12, "steps": 600, "particles": 614400, "wall_s": 362.9, "TSStep_s": 207.4,  "DMSwarmMigrate_s": 302.82, "SNESSolve_s": 4.9199, "KSPSolve_s": 2.6761, "gamma": -0.16119, "W_rel_drift_max": 1.2933e-05, "W_drift_over_peak_fieldE": 0.064697, "momentum_abs_max": 7.7046e-09},
+  {"np": 12, "steps": 100, "particles": 614400, "wall_s": 61.7, "TSStep_s": 34.876, "DMSwarmMigrate_s": 50.601},
+  {"np": 24, "steps": 100, "particles": 1228800, "wall_s": 111.6, "TSStep_s": 59.111, "DMSwarmMigrate_s": 98.646},
+  {"np": 48, "steps": 100, "note": "FAILED at step 1: GMRES recursion/true residual mismatch with ksp atol 1e-14 (my tolerance too tight for 12,288-cell mesh); E-line particle count 2,434,820 < 2,457,600 expected (check)"},
+  {"np": 96, "steps": 100, "note": "FAILED at step 1 (same); E-line particle count 3,216,878 < 4,915,200 expected (check)"}
+ ],
+ "np1_identical_to_polaris_np1": "E-field and energy series identical to all printed digits (Polaris 3.26 GNU vs Aurora 3.26 oneAPI)",
+ "earlier_jobs": "8921827 (module petsc/3.25.2-sycl, OMP oversubscription, cancelled), 8921836/8921861 (module build: np=1 OK, every >1-rank run MPI_Abort 63 with no message), 8921869 diag (module build fails already at np=2), 8921873 diag2 (PETSc 3.26 build OK at np=2 and 12)"
+}

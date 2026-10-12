@@ -1,0 +1,7 @@
+{"jobs": "8921944 (1 node, 7:51) + 8922008 (1 node, 3:59, cancelled after first GPU run); module petsc/3.25.2-sycl, 1 rank, dt=0.01, 100 steps, 51,200 particles",
+ "cpu_nx256":    {"TSStep_s": 14.537, "SNESSolve_s": 0.18478},
+ "kokkos_nx256": {"options": "-dm_vec_type kokkos -dm_mat_type aijkokkos -use_gpu_aware_mpi 0, ZES_ENABLE_SYSMAN=1, gpu_tile_compact.sh", "TSStep_s": 169.61, "SNESSolve_s": 17.142, "KSP_GPU_flop_pct": 100,
+                  "final_EL2_gpu": 2.351593543044793e-02, "final_EL2_cpu": 2.351593543044887e-02, "slowdown_vs_cpu": 11.7},
+ "cpu_nx4096":   {"TSStep_s": 282.96, "SNESSolve_s": 2.1855},
+ "first_attempt_error": "Kokkos SYCL: No memory modules for the SYCL backend found. Make sure that ZES_ENABLE_SYSMAN=1 is set at run time"
+}

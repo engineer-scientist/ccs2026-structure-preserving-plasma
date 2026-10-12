@@ -1,0 +1,35 @@
+{
+ "job": "8921924 (Aurora, debug, 2 nodes); PETSc 3.26 CPU-only; dt=0.01, 100 steps; walltime 22:23",
+ "runs": [
+  {
+   "np": 192,
+   "ppn": 96,
+   "nodes": 2,
+   "steps": 100,
+   "particles": 9830400,
+   "total_s": 875.4,
+   "TSStep_s": 437.08,
+   "DMSwarmMigrate_s": 855.18,
+   "DMPlexLocatePoints_s": 851.66,
+   "DMPlexLocatePoints_max_over_min": 36.1,
+   "SNESSolve_s": 4.0468,
+   "KSPSolve_s": 1.5371,
+   "W_rel_drift_max": 2.283e-06,
+   "Np_conserved": true
+  },
+  {
+   "np": 96,
+   "ppn": 48,
+   "nodes": 2,
+   "steps": 100,
+   "particles": 4915200,
+   "total_s": 464.0,
+   "TSStep_s": 235.19,
+   "DMPlexLocatePoints_s": 443.34,
+   "DMPlexLocatePoints_max_over_min": 18.8,
+   "SNESSolve_s": 2.3978,
+   "Np_conserved": true,
+   "note": "same 96 ranks spread over 2 nodes: 2.352 s/step vs 2.305 on 1 node -> no gain, loss is algorithmic"
+  }
+ ]
+}

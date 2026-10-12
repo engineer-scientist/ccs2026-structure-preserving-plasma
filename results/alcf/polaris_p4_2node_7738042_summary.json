@@ -1,0 +1,13 @@
+{"job": "7738042 (Polaris, debug, 2 nodes, 16 min 10 s walltime); PETSc 3.26 CUDA build; dt=0.01, 100 steps, GMRES+GAMG rtol 1e-8 atol 1e-9; no particle loss at any P",
+ "runs": [
+  {"np": 1,  "ppn": 1,  "steps": 100, "particles": 51200,   "total_s": 25.6,  "TSStep_s": 16.976, "DMSwarmMigrate_s": 16.31,  "SNESSolve_s": 0.23093, "W_rel_drift_max": 2.155e-06},
+  {"np": 4,  "ppn": 4,  "steps": 100, "particles": 204800,  "total_s": 41.85, "TSStep_s": 25.547, "DMSwarmMigrate_s": 30.119, "SNESSolve_s": 0.49015, "W_rel_drift_max": 2.326e-06},
+  {"np": 8,  "ppn": 8,  "steps": 100, "particles": 409600,  "total_s": 60.27, "TSStep_s": 34.965, "DMSwarmMigrate_s": 46.797, "SNESSolve_s": 0.8526,  "W_rel_drift_max": 2.299e-06},
+  {"np": 16, "ppn": 16, "steps": 100, "particles": 819200,  "total_s": 97.3,  "TSStep_s": 53.555, "DMSwarmMigrate_s": 82.534, "SNESSolve_s": 0.91794, "W_rel_drift_max": 2.286e-06},
+  {"np": 32, "ppn": 32, "steps": 100, "particles": 1638400, "total_s": 179.5, "TSStep_s": 94.099, "DMSwarmMigrate_s": 162.23, "SNESSolve_s": 1.2936,  "W_rel_drift_max": 2.28e-06},
+  {"np": 32, "ppn": 16, "steps": 100, "particles": 1638400, "total_s": 167.2, "TSStep_s": 89.249, "DMSwarmMigrate_s": 152.46, "SNESSolve_s": 2.1248,  "W_rel_drift_max": 2.28e-06, "nodes": 2, "series": "spread"},
+  {"np": 64, "ppn": 32, "steps": 100, "particles": 3276800, "total_s": 326.0, "TSStep_s": 168.68, "DMSwarmMigrate_s": 309.34, "SNESSolve_s": 2.6797,  "W_rel_drift_max": 2.284e-06, "nodes": 2}
+ ],
+ "gpu": {"np": 4, "ppn": 4, "options": "-dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0", "particles": 204800, "total_s": 52.25, "TSStep_s": 34.604, "SNESSolve_s": 7.7641, "KSPSolve_s": 4.1939, "gpu_flop_fraction_KSP": "100%", "W_rel_drift_max": 2.326e-06,
+         "note": "Poisson (KSP/SNES) ran on A100s (100% of its flops on GPU, ~2,200 host->device copies); DMSwarm push/locate stayed on CPU. 1.35x SLOWER than CPU np4 (TSStep 25.5 s); energy identical."}
+}

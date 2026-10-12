@@ -1,0 +1,3 @@
+./run_all.sh: line 4: 186447 Aborted                 ./pusher -field $f -method $m -dt $dt -steps $n -nout $((n/2000>0?n/2000:1)) -u0 $u0 -o $R/${f}_${m}.dat $S $extra > $R/${f}_${m}.log 2>&1
+./run_all.sh: line 4: 186440 Aborted                 ./pusher -field $f -method $m -dt $dt -steps $n -nout $((n/2000>0?n/2000:1)) -u0 $u0 -o $R/${f}_${m}.dat $S $extra > $R/${f}_${m}.log 2>&1
+ALLDONE

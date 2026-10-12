@@ -1,0 +1,36 @@
+--- ex2.c
++++ ex2.c
+@@ -934,6 +934,33 @@
+   PetscCall(DMFieldCreateFEGeom(coordField, cellIS, quad, PETSC_FEGEOM_BASIC, &ctx->fegeom));
+   PetscCall(PetscQuadratureDestroy(&quad));
+   PetscCall(ISDestroy(&cellIS));
++  /* Grok Bot local patch (Phase 3): load-balance point location on periodic meshes.
++     DMPlexCreateGridHash() sizes the grid hash from ALL local coordinates. The rank that owns the
++     periodic wrap cell also holds the vertex at the lower boundary, so its hash box spans the whole
++     domain while having only ~0.8*(local cells) bins -> one bin holds most of its cells and every
++     lookup becomes a linear scan (the 18-36x DMPlexLocatePoints imbalance). Here, only on ranks whose
++     local bounding box is much wider than their owned cells, we request bins of about one cell width.
++     Enabled with -gb_wrap_hash_factor <f> (bins = f * box_width / h); default 0 = off. */
++  {
++    PetscReal f = 0, lmin[3], lmax[3], gmin[3], gmax[3];
++    PetscCall(PetscOptionsGetReal(NULL, NULL, "-gb_wrap_hash_factor", &f, NULL));
++    if (f > 0 && cdim == 1) {
++      PetscInt nloc = cEnd - cStart, nglob;
++      PetscCallMPI(MPIU_Allreduce(&nloc, &nglob, 1, MPIU_INT, MPI_SUM, comm));
++      PetscCall(DMGetLocalBoundingBox(*dm, lmin, lmax));
++      PetscCall(DMGetBoundingBox(*dm, gmin, gmax));
++      {
++        const PetscReal h = (gmax[0] - gmin[0]) / nglob, w = lmax[0] - lmin[0];
++        if (w > 4.0 * nloc * h) {
++          char     buf[64];
++          PetscInt nb = (PetscInt)PetscCeilReal(f * w / h);
++          PetscCall(PetscSNPrintf(buf, sizeof(buf), "%" PetscInt_FMT, nb));
++          PetscCall(PetscOptionsSetValue(NULL, "-dm_plex_hash_box_faces", buf));
++          PetscCall(PetscInfo(*dm, "gb_wrap_hash: local box width %g >> owned width %g, using %s hash bins on this rank\n", (double)w, (double)(nloc * h), buf));
++        }
++      }
++    }
++  }
+   PetscFunctionReturn(PETSC_SUCCESS);
+ }
+ 

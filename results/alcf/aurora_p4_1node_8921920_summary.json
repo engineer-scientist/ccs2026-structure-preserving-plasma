@@ -1,0 +1,9 @@
+{"job": "8921920 (Aurora, debug, 1 node, ~15 min); PETSc 3.26 CPU-only build; dt=0.01, 100 steps; no particle loss",
+ "runs": [
+  {"np": 1,  "ppn": 1,  "steps": 100, "particles": 51200,   "total_s": 18.79, "TSStep_s": 12.798, "DMSwarmMigrate_s": 12.555, "SNESSolve_s": 0.21165, "W_rel_drift_max": 2.155e-06},
+  {"np": 12, "ppn": 12, "steps": 100, "particles": 614400,  "total_s": 58.61, "TSStep_s": 33.903, "DMSwarmMigrate_s": 48.907, "SNESSolve_s": 0.87529, "W_rel_drift_max": 2.265e-06},
+  {"np": 24, "ppn": 24, "steps": 100, "particles": 1228800, "total_s": 104.4, "TSStep_s": 57.059, "DMSwarmMigrate_s": 92.803, "SNESSolve_s": 1.2259,  "W_rel_drift_max": 2.286e-06},
+  {"np": 48, "ppn": 48, "steps": 100, "particles": 2457600, "total_s": 250.3, "TSStep_s": 130.56, "DMSwarmMigrate_s": 234.31, "SNESSolve_s": 1.7843,  "W_rel_drift_max": 2.281e-06},
+  {"np": 96, "ppn": 96, "steps": 100, "particles": 4915200, "total_s": 454.0, "TSStep_s": 230.52, "DMSwarmMigrate_s": 436.98, "SNESSolve_s": 2.1247,  "W_rel_drift_max": 2.283e-06}
+ ]
+}

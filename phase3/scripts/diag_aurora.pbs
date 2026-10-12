@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p3_diag
+# Phase 3 step A: diagnose DMPlexLocatePoints imbalance (1 node, 96 ranks)
+cd ${PBS_O_WORKDIR}
+export OMP_NUM_THREADS=1
+LAUNCH=mpiexec; PPNFLAG=-ppn; BINDFLAGS="--cpu-bind depth -d 1"; EXE=./ex2_326
+OUT=runs_aurora_p3diag_${PBS_JOBID%%.*}; mkdir -p $OUT
+source run_common.sh
+DETAIL=1
+echo "start $(date -u)" > $OUT/summary.txt
+# D1/D2: Phase-2 fixed box (L=4pi), dt=0.01, 30 steps: baseline vs hash fix; per-rank detail log
+run 96 96 D1_fixedbox_base 12.5664 0.01 30 0
+run 96 96 D2_fixedbox_fix  12.5664 0.01 30 1
+# D3/D4: grow-the-box L=pi*P, dt=0.05
+run 96 96 D3_grow_base $(Lof 96) 0.05 30 0
+run 96 96 D4_grow_fix  $(Lof 96) 0.05 100 1
+# D5/D6: 1-rank references
+DETAIL=
+run 1 1 D5_grow_np1_fix $(Lof 1) 0.05 100 1
+run 1 1 D6_grow_np1_base $(Lof 1) 0.05 100 0
+# D7: brute-force location (no hash) at 96 ranks, short
+run 96 96 D7_grow_nohash $(Lof 96) 0.05 10 0 -dm_plex_hash_location 0
+echo "end $(date -u)" >> $OUT/summary.txt
+python3 reduce3.py $OUT > $OUT/reduced.csv 2>&1

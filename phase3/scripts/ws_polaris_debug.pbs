@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug
+#PBS -l select=2:system=polaris
+#PBS -l walltime=00:20:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p3_wsPd
+# Phase 3 step B (Polaris), fallback: 1-2 node part of the sweep in the debug queue (debug-scaling job waits for free nodes).
+# Sub-runs use the first N nodes via --hostfile. Order: fixed runs (8,4,2,1 nodes), GPU, then unfixed baselines.
+cd ${PBS_O_WORKDIR}
+module swap PrgEnv-nvidia PrgEnv-gnu >/dev/null 2>&1
+module load cuda/13.0 craype-accel-nvidia80 >/dev/null 2>&1
+module unload darshan xalt >/dev/null 2>&1
+export OMP_NUM_THREADS=1
+EXE=./ex2; LAUNCH=mpiexec; PPNFLAG=--ppn
+OUT=runs_polaris_p3ws_${PBS_JOBID%%.*}; mkdir -p $OUT
+source run_common.sh
+echo "start $(date -u)" > $OUT/summary.txt
+hf() { head -n $1 $PBS_NODEFILE > $OUT/hosts_$1; echo "--hostfile $OUT/hosts_$1"; }
+for N in 2 1; do BINDFLAGS="$(hf $N) --depth 1 --cpu-bind depth"; [ $N -le 2 ] && DETAIL=1 || DETAIL=; run $((32*N)) 32 ws_fix_np$((32*N)) $(Lof $((32*N))) 0.05 100 1; done
+DETAIL=
+BINDFLAGS="--depth 1 --cpu-bind depth"; run 1 1 ws_fix_np1 $(Lof 1) 0.05 100 1
+for N in 2 1; do BINDFLAGS="$(hf $N) --depth 8 --cpu-bind depth"; run $((4*N)) 4 gpu_fix_np$((4*N)) $(Lof $((4*N))) 0.05 100 1 -dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0; run $((4*N)) 4 cpu4_fix_np$((4*N)) $(Lof $((4*N))) 0.05 100 1; done
+for N in 2 1; do BINDFLAGS="$(hf $N) --depth 1 --cpu-bind depth"; run $((32*N)) 32 ws_base_np$((32*N)) $(Lof $((32*N))) 0.05 20 0; done
+echo "end $(date -u)" >> $OUT/summary.txt
+python3 reduce3.py $OUT > $OUT/reduced.csv 2>&1

@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug
+#PBS -l walltime=00:30:00
+#PBS -l filesystems=home
+#PBS -j oe
+# submit: qsub -l select=1 pilot4.pbs ; qsub -l select=2 pilot4.pbs   (ex2_326 = ex2 built vs ~/grokbot-sp/petsc arch-aurora-cpu-opt)
+cd ${PBS_O_WORKDIR}
+export OMP_NUM_THREADS=1
+NN=$(wc -l < $PBS_NODEFILE)
+OUT=runs_aurora_p4_${NN}node_${PBS_JOBID%%.*}; mkdir -p $OUT
+BASE="$(cat common_opts.txt) -em_ksp_type gmres -em_ksp_rtol 1e-8 -em_ksp_atol 1e-9 -ts_time_step 0.01 -ts_max_time 1.0"
+echo "start $(date -u) nodes=$NN" > $OUT/summary.txt
+run() { NP=$1; P=$2; TAG=$3; shift 3; NX=$((256*NP)); T0=$(date +%s.%N)
+  mpiexec -n $NP -ppn $P --cpu-bind depth -d 1 ./ex2_326 $BASE -ts_max_steps 100 -dm_plex_box_faces $NX "$@" -log_view :$OUT/logview_$TAG.txt > $OUT/ex2_$TAG.out 2>&1
+  RC=$?; echo "$TAG np=$NP ppn=$P nx=$NX particles=$((NX*200)) rc=$RC Np_first=$(grep '^E:' $OUT/ex2_$TAG.out | head -1 | awk '{print $13}') Np_last=$(grep '^E:' $OUT/ex2_$TAG.out | tail -1 | awk '{print $13}') wall_s=$(echo "$(date +%s.%N) - $T0" | bc)" >> $OUT/summary.txt; }
+if [ $NN -eq 1 ]; then
+  for NP in 1 12 24 48 96; do run $NP $NP np$NP; done
+else
+  run 192 96 np192_ppn96
+  run 96 48 np96_ppn48
+fi
+echo "end $(date -u)" >> $OUT/summary.txt

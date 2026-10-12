@@ -1,0 +1,12 @@
+*.o
+*.so
+*.a
+__pycache__/
+*.pyc
+.venv/
+venv/
+petsc/
+arch-*/
+*.tgz
+*.tar.gz
+*.b64

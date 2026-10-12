@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug-scaling
+#PBS -l walltime=00:20:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p3_ws
+# Phase 3 step B (Polaris): grow-the-box weak scaling, 32 CPU ranks/node + 4 ranks/node with CUDA vectors. submit: qsub -l select=N:system=polaris ws_polaris.pbs
+cd ${PBS_O_WORKDIR}
+module swap PrgEnv-nvidia PrgEnv-gnu >/dev/null 2>&1
+module load cuda/13.0 craype-accel-nvidia80 >/dev/null 2>&1
+module unload darshan xalt >/dev/null 2>&1
+export OMP_NUM_THREADS=1
+LAUNCH=mpiexec; PPNFLAG=--ppn; BINDFLAGS="--depth 1 --cpu-bind depth"; EXE=./ex2
+NN=$(wc -l < $PBS_NODEFILE); NP=$((32*NN)); NG=$((4*NN))
+OUT=runs_polaris_p3ws_${NN}node_${PBS_JOBID%%.*}; mkdir -p $OUT
+source run_common.sh
+[ $NN -le 2 ] && DETAIL=1
+echo "start $(date -u) nodes=$NN" > $OUT/summary.txt
+run $NP 32 ws_fix_np$NP $(Lof $NP) 0.05 100 1
+DETAIL=
+run $NP 32 ws_base_np$NP $(Lof $NP) 0.05 20 0
+BINDFLAGS="--depth 8 --cpu-bind depth"
+run $NG 4 gpu_fix_np$NG $(Lof $NG) 0.05 100 1 -dm_vec_type cuda -dm_mat_type aijcusparse -use_gpu_aware_mpi 0
+run $NG 4 cpu4_fix_np$NG $(Lof $NG) 0.05 100 1
+BINDFLAGS="--depth 1 --cpu-bind depth"
+[ $NN -eq 1 ] && run 1 1 ws_fix_np1 $(Lof 1) 0.05 100 1
+echo "end $(date -u)" >> $OUT/summary.txt

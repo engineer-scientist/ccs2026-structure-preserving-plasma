@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug-scaling
+#PBS -l walltime=00:20:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p3_ws
+# Phase 3 step B (Aurora): grow-the-box weak scaling, 96 ranks/node. submit: qsub -l select=N ws_aurora.pbs
+cd ${PBS_O_WORKDIR}
+export OMP_NUM_THREADS=1
+LAUNCH=mpiexec; PPNFLAG=-ppn; BINDFLAGS="--cpu-bind depth -d 1"; EXE=./ex2_326
+NN=$(wc -l < $PBS_NODEFILE); NP=$((96*NN))
+OUT=runs_aurora_p3ws_${NN}node_${PBS_JOBID%%.*}; mkdir -p $OUT
+source run_common.sh
+[ $NN -le 2 ] && DETAIL=1
+echo "start $(date -u) nodes=$NN" > $OUT/summary.txt
+run $NP 96 ws_fix_np$NP $(Lof $NP) 0.05 100 1
+DETAIL=
+run $NP 96 ws_base_np$NP $(Lof $NP) 0.05 20 0
+[ $NN -eq 1 ] && run 1 1 ws_fix_np1 $(Lof 1) 0.05 100 1
+echo "end $(date -u)" >> $OUT/summary.txt
+python3 reduce3.py $OUT > $OUT/reduced.csv 2>&1

@@ -1,0 +1,43 @@
+[
+ {
+  "method": "boris",
+  "field": "solovev",
+  "pass": true,
+  "failures": [],
+  "invariants": {
+   "energy_rel_drift_max": 3.171e-14,
+   "p_phi_rel_drift_max": 4.618e-06
+  }
+ },
+ {
+  "method": "dg",
+  "field": "solovev",
+  "pass": true,
+  "failures": [],
+  "invariants": {
+   "energy_rel_drift_max": 1.872e-11,
+   "p_phi_rel_drift_max": 2.765e-06
+  }
+ },
+ {
+  "method": "rk4",
+  "field": "solovev",
+  "pass": false,
+  "failures": [
+   "pusher[rk4]: energy_rel_drift_max = 0.01508 exceeds tolerance 1e-06"
+  ],
+  "invariants": {
+   "energy_rel_drift_max": 0.01508,
+   "p_phi_rel_drift_max": 1.206e-05
+  }
+ },
+ {
+  "method": "bsi",
+  "field": "uniform",
+  "pass": false,
+  "failures": [
+   "unparseable VERIFY line: {\"code\": \"pusher\", \"method\": \"bsi\", \"field\": \"uniform\", \"steps\": 50000, \"invariants\": {\"energy_rel_drift_max\": inf, \"p_phi_rel_drift_max\": inf}, \"finite\": false}"
+  ],
+  "invariants": null
+ }
+]

@@ -1,0 +1,142 @@
+From 8d09f834e2c10740e0b799a84666fc68f322cd1e Mon Sep 17 00:00:00 2001
+From: grokbot <grokbot@local>
+Date: Sun, 11 Oct 2026 22:04:47 -0400
+Subject: [PATCH 1/2] Prototype VERIFY{} conservation contract:
+ verify_contract.py, run_and_verify tool, codegen prompt gate (local only, not
+ pushed)
+
+---
+ petsc_claude_code_generator_mcp_server.py |  3 +-
+ petsc_compile_run_mcp_server.py           | 13 ++++++
+ test_verify_contract.py                   | 14 ++++++
+ verify_contract.py                        | 52 +++++++++++++++++++++++
+ 4 files changed, 81 insertions(+), 1 deletion(-)
+ create mode 100644 test_verify_contract.py
+ create mode 100644 verify_contract.py
+
+diff --git a/petsc_claude_code_generator_mcp_server.py b/petsc_claude_code_generator_mcp_server.py
+index de331de..5ef8322 100644
+--- a/petsc_claude_code_generator_mcp_server.py
++++ b/petsc_claude_code_generator_mcp_server.py
+@@ -13,6 +13,7 @@ import utils
+ import petsc_compile_run_mcp_client
+ import claude_agent_sdk
+ import json
++import verify_contract
+ 
+ mcp = fastmcp.server.FastMCP("PETSc Claude-based code generator MCP server", instructions="This server will generate and test run a PETSc program based on a user specification of the PETSc program.", website_url = "mcp.petsc-ai.org")
+ 
+@@ -32,7 +33,7 @@ async def generate_code_async(specification: str) -> dict:
+   tool_cnt = 0
+   async with claude_agent_sdk.ClaudeSDKClient(options = options) as client:
+     results = {}
+-    query = 'Write and compile a PETSc for me that ' + specification + ' using the PETSc compile-run MCP server available to you. Do **not** use the Bash or Write tool! Verify you have access to three MCP servers, if you do not then exit immediately. Always use the latest PETSc coding style which wraps the PETSc function calls inside the PetscCall() macro and does not use the old ierr = approach. Do not use %D as a formatting argument in printf() and related calls. Once the code compiles and runs return the code and its output as a JSON dictionary with two keys, code and output in a TextBlock'
++    query = 'Write and compile a PETSc for me that ' + specification + ' using the PETSc compile-run MCP server available to you. Do **not** use the Bash or Write tool! Verify you have access to three MCP servers, if you do not then exit immediately. Always use the latest PETSc coding style which wraps the PETSc function calls inside the PetscCall() macro and does not use the old ierr = approach. Do not use %D as a formatting argument in printf() and related calls. ' + verify_contract.VERIFY_INSTRUCTIONS + ' Run it with the run_and_verify tool and fix the code until verification passes. Once the code compiles, runs and passes verification return the code and its output as a JSON dictionary with two keys, code and output in a TextBlock'
+     while not results:
+       await client.query(query)
+       async for message in client.receive_response():
+diff --git a/petsc_compile_run_mcp_server.py b/petsc_compile_run_mcp_server.py
+index 1a7ea54..0fb83ea 100644
+--- a/petsc_compile_run_mcp_server.py
++++ b/petsc_compile_run_mcp_server.py
+@@ -133,6 +133,19 @@ def git_grep_petsc_repository(string: str) -> str:
+   output = subprocess.check_output(['git', 'grep', string], cwd=PETSC_DIR).decode('utf-8')
+   return output
+ 
++@mcp.tool()
++def run_and_verify(executable: str, nsize: int = 1, args: str = '', timeout: float = 120, contract: str = '') -> dict:
++  """Run a compiled executable and check its VERIFY{} conservation line against a contract (JSON dict of
++     invariant-name -> tolerance; empty means the default structure-preserving contract).
++     Returns stdout, stderr, returncode and a 'verification' dictionary with keys pass, failures, records."""
++  import json, verify_contract
++  petscmcp.logToolCalled(executable)
++  res = run_executable(executable, nsize = nsize, args = args, timeout = timeout)
++  sc  = res.structured_content if hasattr(res, 'structured_content') else res
++  ver = verify_contract.check(sc.get('stdout', ''), json.loads(contract) if contract else None)
++  petscmcp.log('Verification result: ' + json.dumps(ver['pass']) + ' ' + json.dumps(ver['failures']) + '\n\n')
++  return ToolResult(structured_content={**sc, 'verification': ver})
++
+ def main(transport: str = 'streamable-http', redirect_io : bool = True):
+   global PETSC_DIR, PETSC_ARCH, WORK_DIR
+   petscmcp.serverCheckKey('PETSC_DIR')
+diff --git a/test_verify_contract.py b/test_verify_contract.py
+new file mode 100644
+index 0000000..5a8583e
+--- /dev/null
++++ b/test_verify_contract.py
+@@ -0,0 +1,14 @@
++"""Offline test of the VERIFY{} contract on real structure-preserving pusher runs (no LLM needed)."""
++import subprocess, json, verify_contract as vc
++P = '/workspace/research/sp/pusher/pusher_v'
++cases = [('boris', 'solovev', ''), ('dg', 'solovev', ''), ('rk4', 'solovev', ''), ('bsi', 'uniform', '-ts_basicsymplectic_type 2')]
++contract = {'energy_rel_drift_max': 1e-6, 'p_phi_rel_drift_max': 1e-2}
++rows = []
++for m, f, extra in cases:
++    cmd = f'{P} -field {f} -method {m} -dt 0.2 -steps 50000 -nout 50000 -u0 1.1,0,0,0,0.004,0.003 -o /tmp/vc.dat -snes_rtol 1e-14 -snes_atol 1e-15 {extra}'
++    out = subprocess.run(cmd.split(), capture_output=True, text=True).stdout
++    r = vc.check(out, contract)
++    rows.append({'method': m, 'field': f, 'pass': r['pass'], 'failures': r['failures'], 'invariants': r['records'][0]['invariants'] if r['records'] else None})
++    print(m, f, 'PASS' if r['pass'] else 'FAIL', r['failures'])
++assert vc.check('no verify line here')['pass'] is False
++json.dump(rows, open('/workspace/research/results/verify_contract_test.json', 'w'), indent=1)
+diff --git a/verify_contract.py b/verify_contract.py
+new file mode 100644
+index 0000000..4efc7cd
+--- /dev/null
++++ b/verify_contract.py
+@@ -0,0 +1,52 @@
++#
++#   VERIFY{} contract: generated PETSc programs print one machine-readable line
++#       VERIFY {"code": ..., "invariants": {"<name>": <value>, ...}, "finite": true}
++#   and the pipeline (compile-run / analysis agent) accepts the code only if every
++#   invariant in the contract is within tolerance. Verification, not LLM confidence, decides.
++#
++import json, re
++
++VERIFY_RE = re.compile(r'^VERIFY\s+(\{.*\})\s*$', re.M)
++
++# default tolerances for structure-preserving plasma codes (overridable per problem by NA agent)
++DEFAULT_CONTRACT = {
++  'energy_rel_drift_max': 1e-6,     # discrete-gradient / exact-energy methods: ~1e-12; symplectic: bounded O(dt^2)
++  'p_phi_rel_drift_max':  1e-2,     # canonical toroidal momentum (axisymmetric fields)
++  'divB_max':             1e-12,    # constrained transport / FEEC: machine precision
++  'charge_rel_drift_max': 1e-12,    # PIC charge conservation
++  'phase_volume_det_minus_1': 1e-8, # symplectic / volume-preserving maps
++}
++
++def parse_verify(stdout: str) -> list:
++  out = []
++  for m in VERIFY_RE.finditer(stdout or ''):
++    try:
++      out.append(json.loads(m.group(1)))
++    except json.JSONDecodeError:
++      out.append({'parse_error': m.group(1)})
++  return out
++
++def check(stdout: str, contract: dict = None) -> dict:
++  '''Return {'pass': bool, 'failures': [...], 'records': [...]}. Missing VERIFY line is a failure.'''
++  contract = dict(DEFAULT_CONTRACT if contract is None else contract)
++  recs = parse_verify(stdout)
++  failures = []
++  if not recs:
++    failures.append('no VERIFY{} line in program output')
++  for r in recs:
++    if 'parse_error' in r:
++      failures.append('unparseable VERIFY line: ' + r['parse_error'][:200]); continue
++    if r.get('finite') is False:
++      failures.append(f"{r.get('code','?')}: non-finite / blown-up solution")
++    for name, val in r.get('invariants', {}).items():
++      tol = contract.get(name)
++      if tol is None: continue
++      if not (isinstance(val, (int, float)) and abs(val) <= tol):
++        failures.append(f"{r.get('code','?')}[{r.get('method','')}]: {name} = {val} exceeds tolerance {tol}")
++  return {'pass': not failures, 'failures': failures, 'records': recs}
++
++VERIFY_INSTRUCTIONS = ('The program MUST end by printing exactly one line of the form '
++  'VERIFY {"code": "<name>", "method": "<integrator>", "invariants": {"<invariant>": <max relative drift>, ...}, "finite": true|false} '
++  'reporting the maximum relative drift over the whole run of every conserved quantity of the model '
++  '(energy, momentum, canonical toroidal momentum, charge, max |div B|, ...). Use these names when applicable: '
++  + ', '.join(DEFAULT_CONTRACT) + '.')
+-- 
+2.47.3
+

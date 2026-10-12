@@ -1,0 +1,41 @@
+series,machine,variant,ranks,nodes,s_per_step,eff_vs_1rank,eff_vs_1node,locate_maxmin,Np_conserved,W_rel_drift
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,1,1,0.12798,1.0,,,yes,2.155e-06
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,12,1,0.33903,0.377488717812583,1.0,,yes,2.265e-06
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,24,1,0.57059,0.22429415166757216,0.5941744510068525,,yes,2.286e-06
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,48,1,1.3056,0.09802389705882353,0.2596737132352941,,yes,2.281e-06
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,96,1,2.3052,0.05551795939614784,0.14707183758459136,,yes,2.283e-06
+"aurora phase2 before (fixed box, dt=0.01)",aurora,before_fixedbox,192,2,4.3708,0.02928068088221836,0.07756703578292304,36.1,yes,2.283e-06
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,1,1,0.14725,1.0,,1.0,yes,1.0964e-07
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,96,1,0.29882000000000003,0.4927715681681279,1.0,1.2,yes,1.1411e-05
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,192,2,0.33026000000000005,0.44586083691636885,0.9048022769938836,1.2,yes,1.1411e-05
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,384,4,0.34176,0.4308579119850187,0.8743562734082397,1.2,yes,1.1411e-05
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,768,8,0.36326,0.4053570445411,0.8226063976215383,1.4,yes,1.1411e-05
+"aurora phase3 after fix (grow box, dt=0.05)",aurora,after_fix,1536,16,0.3996,0.3684934934934935,0.7477977977977979,1.3,yes,1.1411e-05
+"aurora phase3 before fix (grow box, dt=0.05)",aurora,before_growbox,96,1,2.2878499999999997,0.06583036475293398,1.0,18.2,yes,1.1167e-05
+"aurora phase3 before fix (grow box, dt=0.05)",aurora,before_growbox,192,2,4.3177,0.034881997359705395,0.5298770178567291,35.6,yes,1.1167e-05
+"aurora phase3 before fix (grow box, dt=0.05)",aurora,before_growbox,384,4,4.9347,0.03052059902324356,0.46362494173911273,41.5,yes,1.1167e-05
+"aurora phase3 before fix (grow box, dt=0.05)",aurora,before_growbox,768,8,4.8506,0.031049767039129178,0.47166329938564294,41.5,yes,1.1167e-05
+"aurora phase3 before fix (grow box, dt=0.05)",aurora,before_growbox,1536,16,4.88095,0.030856697978877058,0.46873047255144995,41.4,yes,1.1167e-05
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,1,1,0.16976,1.0,,,yes,2.155e-06
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,4,1,0.25547,0.6645007241554782,1.0,,yes,2.326e-06
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,8,1,0.34965,0.4855140855140855,0.7306449306449305,,yes,2.299e-06
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,16,1,0.53555,0.31698254131266923,0.4770236205769769,,yes,2.286e-06
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,32,1,0.94099,0.18040574288780964,0.27149066408782235,,yes,2.28e-06
+"polaris phase2 before (fixed box, dt=0.01)",polaris,before_fixedbox,64,2,1.6868,0.10064026559165283,0.15145245435143465,,yes,2.284e-06
+"polaris phase3 after fix, 4 ranks/node + CUDA vec/mat",polaris,after_fix_gpu,4,1,0.35692,0.5387201613807016,1.0,n/a,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node + CUDA vec/mat",polaris,after_fix_gpu,8,2,0.33586,0.5725004466146609,1.0627046983862325,n/a,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node + CUDA vec/mat",polaris,after_fix_gpu,16,4,0.3404,0.5648648648648649,1.0485311398354877,n/a,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node + CUDA vec/mat",polaris,after_fix_gpu,32,8,0.40125,0.479202492211838,0.8895202492211839,n/a,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node CPU",polaris,after_fix_cpu4,4,1,0.2775,0.6929009009009008,1.0,1.6,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node CPU",polaris,after_fix_cpu4,8,2,0.23031,0.8348747340541011,1.2048977465155661,1.2,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node CPU",polaris,after_fix_cpu4,16,4,0.23393,0.8219552857692473,1.186252297695892,1.1,yes,1.1411e-05
+"polaris phase3 after fix, 4 ranks/node CPU",polaris,after_fix_cpu4,32,8,0.24816,0.7748226950354611,1.1182301740812381,1.3,yes,1.1411e-05
+"polaris phase3 after fix, CPU 32/node",polaris,after_fix,1,1,0.19228,1.0,,1.0,yes,1.0964e-07
+"polaris phase3 after fix, CPU 32/node",polaris,after_fix,32,1,0.26903,0.7147158309482214,1.0,1.2,yes,1.1411e-05
+"polaris phase3 after fix, CPU 32/node",polaris,after_fix,64,2,0.29129,0.6600981839404031,0.9235813107212744,1.1,yes,1.1411e-05
+"polaris phase3 after fix, CPU 32/node",polaris,after_fix,128,4,0.31444,0.6114998091845821,0.8555845312301233,1.2,yes,1.1411e-05
+"polaris phase3 after fix, CPU 32/node",polaris,after_fix,256,8,0.33701000000000003,0.5705468680454585,0.7982849173615025,1.1,yes,1.1411e-05
+"polaris phase3 before fix, CPU 32/node",polaris,before_growbox,32,1,0.9489000000000001,0.2026346295710823,1.0,6.9,yes,1.1167e-05
+"polaris phase3 before fix, CPU 32/node",polaris,before_growbox,64,2,1.72125,0.11170951343500364,0.551285403050109,13.2,yes,1.1167e-05
+"polaris phase3 before fix, CPU 32/node",polaris,before_growbox,128,4,2.7983000000000002,0.06871314726798412,0.3390987385198156,22.7,yes,1.1167e-05
+"polaris phase3 before fix, CPU 32/node",polaris,before_growbox,256,8,4.9575000000000005,0.03878567826525466,0.1914069591527988,41.4,yes,1.1167e-05
