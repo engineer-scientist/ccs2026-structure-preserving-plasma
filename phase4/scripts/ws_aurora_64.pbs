@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug-scaling
+#PBS -l select=64
+#PBS -l walltime=00:18:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p4_ws64
+# Phase 4 weak scaling extension: same per-rank load as phase 3 (256 cells x 200 v-cells/rank, L=pi*P, dt .05, 100 steps, patched ex2 -gb_wrap_hash_factor 2), 64 nodes x 96 ppn
+cd ${PBS_O_WORKDIR}
+export OMP_NUM_THREADS=1
+EXE=./ex2_326; PPNFLAG=-ppn
+source run_common4.sh
+OUT=runs_aurora_p4ws64_${PBS_JOBID%%.*}; mkdir -p $OUT; st START; echo "start $(date -u)" > $OUT/summary.txt
+hf() { head -n $1 $PBS_NODEFILE > $OUT/hosts_$1; echo "--hostfile $OUT/hosts_$1"; }
+LAUNCH="timeout 780 mpiexec"; BINDFLAGS="--cpu-bind depth -d 1"; runx 6144 96 ws_fix_np6144 $(Lof 6144) 1572864 0.05 100 1
+echo "end $(date -u)" >> $OUT/summary.txt
+python3 reduce3.py $OUT > $OUT/reduced.csv 2>&1
+st "DONE rc_list=$(grep -o "rc=[0-9]*" $OUT/summary.txt | tr "\n" " ") out=~/grokbot-sp/p4/$OUT"

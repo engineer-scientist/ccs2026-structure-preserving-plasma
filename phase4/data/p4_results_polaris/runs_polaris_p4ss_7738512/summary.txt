@@ -1,0 +1,6 @@
+start Mon Oct 12 08:15:24 AM UTC 2026
+ss_np32 np=32 ppn=32 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=235.236 extra=
+ss_np64 np=64 ppn=32 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=129.497 extra=
+ss_np128 np=128 ppn=32 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=68.994 extra=
+ss_np256 np=256 ppn=32 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=43.6982 extra=
+end Mon Oct 12 08:23:22 AM UTC 2026

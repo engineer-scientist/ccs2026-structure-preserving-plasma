@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug
+#PBS -l select=1:system=polaris
+#PBS -l walltime=00:45:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p4_lr
+# Phase 4 long-run conservation: Landau damping (phase-2 physics setup: x in [0,4pi], 256 cells, 51,200 particles, TSBASICSYMPLECTIC)
+# x10: 6000 steps dt .05 (t=300) full res (51,200 particles). x10 dt .01: 6000 steps (t=60). x100: 60000 steps dt .05 (t=3000) at REDUCED res 64 x-cells x 50 v-cells = 3,200 particles (full res would take ~3.6 h). Concurrent, 1 rank each.
+cd ${PBS_O_WORKDIR}
+module swap PrgEnv-nvidia PrgEnv-gnu >/dev/null 2>&1
+module load cuda/13.0 craype-accel-nvidia80 >/dev/null 2>&1
+module unload darshan xalt >/dev/null 2>&1
+export OMP_NUM_THREADS=1
+EXE=./ex2; PPNFLAG=--ppn
+source run_common4.sh
+OUT=runs_polaris_p4lr_${PBS_JOBID%%.*}; mkdir -p $OUT; st START; echo "start $(date -u)" > $OUT/summary.txt
+B2="$(cat common_opts_v2.txt)"
+lr() { TAG=$1; shift; T0=$(date +%s); timeout 2500 mpiexec -n 1 --cpu-bind none $EXE $B2 -dm_plex_box_faces 256 "$@" -log_view :$OUT/logview_$TAG.txt > $OUT/ex2_$TAG.out 2>&1; echo "$TAG rc=$? lines=$(grep -c '^E:' $OUT/ex2_$TAG.out) wall_s=$(($(date +%s)-T0)) opts=$*" >> $OUT/summary.txt; }
+lr x10_dt05 -ts_time_step 0.05 -ts_max_steps 6000 -ts_max_time 300.001 &
+lr x100_dt05_lowres -dm_plex_box_faces 64 -vdm_plex_box_faces 50 -ts_time_step 0.05 -ts_max_steps 60000 -ts_max_time 3000.001 &
+lr x10_dt01 -ts_time_step 0.01 -ts_max_steps 6000 -ts_max_time 60.0001 &
+wait
+echo "end $(date -u)" >> $OUT/summary.txt
+st "DONE $(grep -o 'rc=[0-9]*' $OUT/summary.txt | tr '\n' ' ') out=~/grokbot-sp/p4/$OUT"

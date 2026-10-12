@@ -1,0 +1,8 @@
+method boris field solovev steps 100000000 dt 0.2 wall 5.471 s
+WARNING! There are options you set that were not used!
+WARNING! could be spelling mistake, etc!
+There are 4 unused database options. They are:
+Option left: name:-snes_atol value: 1e-15 source: command line
+Option left: name:-snes_rtol value: 1e-14 source: command line
+Option left: name:-snes_stol value: 1e-16 source: command line
+Option left: name:-ts_max_snes_failures value: -1 source: command line

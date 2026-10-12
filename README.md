@@ -48,3 +48,10 @@ This research used resources of the Argonne Leadership Computing Facility (ALCF)
 
 ## License
 No license has been chosen yet, so all rights are reserved by default. Files derived from PETSc (`code/sp/ex2/ex2.c`, `phase3/patch/ex2.c`) remain under PETSc's BSD-2-Clause license.
+
+## Phase 4 (Oct 12, 2026): strong scaling, 64-node weak scaling, long-run conservation
+See `phase4/` and the Phase 4 section of `results/RESULTS.md`.
+- Strong scaling (9.83M particles): Aurora 1→16 nodes 88.6→19.1 s (4.6×, 29 % eff.); Polaris 1→8 nodes 235→43.7 s (5.4×, 67 %).
+- Weak scaling vs 1 node (TSStep): 63 % at 32 nodes, 58 % at 64 nodes (6,144 ranks, 315M particles) on Aurora.
+- Long Landau runs: energy error bounded (~4e-6) at Δt=0.01 to t=60, but secular numerical heating at Δt=0.05 in long runs (0.44 % by t=300; 81 % for a 3,200-particle run to t=3000).
+- Pushers, 10⁸ steps: Boris bounded (Solov'ev ΔH ~1e-12), RK4 drifts 28–67 %; TSDISCGRAD stalled (not a 10⁸-step result).

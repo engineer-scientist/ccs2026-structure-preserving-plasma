@@ -1,0 +1,1 @@
+for h in aurora polaris; do echo "== $h"; ssh -O check $h 2>&1; ssh -o BatchMode=yes $h 'hostname; qstat -u $USER 2>&1 | tail -5; ls ~/grokbot-sp/p3 | head -60; quota 2>/dev/null | tail -3; ls ~/grokbot-sp' ; done

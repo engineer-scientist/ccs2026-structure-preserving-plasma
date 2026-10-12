@@ -1,0 +1,7 @@
+start Mon Oct 12 07:39:24 AM UTC 2026
+ss_np96 np=96 ppn=96 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=88.6339 extra=
+ss_np192 np=192 ppn=96 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=51.5543 extra=
+ss_np384 np=384 ppn=96 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=30.6648 extra=
+ss_np768 np=768 ppn=96 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=21.2095 extra=
+ss_np1536 np=1536 ppn=96 nx=49152 L=603.18578948924 dt=0.05 steps=100 fix=1 particles=9830400 rc=0 Np_first=9830400 Np_last=9830400 wall_s=19.1431 extra=
+end Mon Oct 12 07:42:55 AM UTC 2026

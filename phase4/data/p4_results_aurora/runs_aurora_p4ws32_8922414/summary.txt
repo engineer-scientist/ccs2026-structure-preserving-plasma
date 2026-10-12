@@ -1,0 +1,4 @@
+start Mon Oct 12 07:45:29 AM UTC 2026
+ws_fix_np96 np=96 ppn=96 nx=24576 L=301.59289474462 dt=0.05 steps=100 fix=1 particles=4915200 rc=0 Np_first=4915200 Np_last=4915200 wall_s=46.6845 extra=
+ws_fix_np3072 np=3072 ppn=96 nx=786432 L=9650.97263182784 dt=0.05 steps=100 fix=1 particles=157286400 rc=0 Np_first=157286400 Np_last=157286400 wall_s=74.3514 extra=
+end Mon Oct 12 07:47:31 AM UTC 2026

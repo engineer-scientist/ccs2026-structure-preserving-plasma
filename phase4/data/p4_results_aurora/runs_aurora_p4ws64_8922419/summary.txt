@@ -1,0 +1,3 @@
+start Mon Oct 12 07:50:11 AM UTC 2026
+ws_fix_np6144 np=6144 ppn=96 nx=1572864 L=19301.9452636557 dt=0.05 steps=100 fix=1 particles=314572800 rc=0 Np_first=314572800 Np_last=314572800 wall_s=85.7313 extra=
+end Mon Oct 12 07:51:37 AM UTC 2026

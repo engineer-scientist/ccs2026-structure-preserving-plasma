@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -A DD_plasma_physics
+#PBS -q debug-scaling
+#PBS -l select=16
+#PBS -l walltime=00:15:00
+#PBS -l filesystems=home
+#PBS -j oe
+#PBS -N gb_p4_ssA
+# Phase 4 strong scaling: fixed global problem L=pi*192, NX=49152 cells (9.83M particles), dt .05, 100 steps; 1..16 nodes x 96 ppn
+cd ${PBS_O_WORKDIR}
+export OMP_NUM_THREADS=1
+EXE=./ex2_326; PPNFLAG=-ppn
+source run_common4.sh
+LAUNCH="timeout 240 mpiexec"
+OUT=runs_aurora_p4ss_${PBS_JOBID%%.*}; mkdir -p $OUT; st START; echo "start $(date -u)" > $OUT/summary.txt
+hf() { head -n $1 $PBS_NODEFILE > $OUT/hosts_$1; echo "--hostfile $OUT/hosts_$1"; }
+for N in 1 2 4 8 16; do BINDFLAGS="$(hf $N) --cpu-bind depth -d 1"; runx $((96*N)) 96 ss_np$((96*N)) $(Lof 192) 49152 0.05 100 1; done
+echo "end $(date -u)" >> $OUT/summary.txt
+python3 reduce3.py $OUT > $OUT/reduced.csv 2>&1
+st "DONE rc_list=$(grep -o "rc=[0-9]*" $OUT/summary.txt | tr "\n" " ") out=~/grokbot-sp/p4/$OUT"

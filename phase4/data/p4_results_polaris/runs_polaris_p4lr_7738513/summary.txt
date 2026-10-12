@@ -1,0 +1,5 @@
+start Mon Oct 12 07:37:51 AM UTC 2026
+x100_dt05_lowres rc=0 lines=60000 wall_s=1163 opts=-dm_plex_box_faces 64 -vdm_plex_box_faces 50 -ts_time_step 0.05 -ts_max_steps 60000 -ts_max_time 3000.001
+x10_dt01 rc=0 lines=6000 wall_s=1691 opts=-ts_time_step 0.01 -ts_max_steps 6000 -ts_max_time 60.0001
+x10_dt05 rc=0 lines=6000 wall_s=1953 opts=-ts_time_step 0.05 -ts_max_steps 6000 -ts_max_time 300.001
+end Mon Oct 12 08:10:24 AM UTC 2026

@@ -215,3 +215,60 @@ Efficiency below is T(1 rank)/T(P) from the TSStep time per step (slowest rank).
   Both show the same pathology.
 * Runs are short (100 steps, t = 5). Times exclude setup. At 1,536 ranks the wrap rank spends roughly 20 s once, at startup, building its fine hash.
 * The ex2 "GPU" runs offload only the field solve. Particles stay on the CPU, as in Phase 2.
+
+## Phase 4 (Oct 12, 2026): strong scaling, 32/64-node weak scaling, long-run conservation
+All ALCF jobs rc=0, no particles lost in any run (Np_first = Np_last). Same patched ex2 (`-gb_wrap_hash_factor 2`), CPU path.
+Raw data: `phase4/data/` (strong_scaling.csv, weak_scaling_p4.csv, phase4_analysis.json); analysis script `phase4/analysis/analyze4.py`.
+
+### Strong scaling: `figs/strong_scaling.png`
+Fixed problem: 49,152 x-cells × 200 v = 9,830,400 particles, Δt = 0.05, 100 steps. Reference = 1 node (a 1-rank run would take ~45 min).
+| machine | nodes (ranks) | wall s | speedup | eff. (wall) | TSStep s | eff. (TSStep) |
+|---|---|---|---|---|---|---|
+| Aurora | 1 (96) | 88.63 | 1.00 | 1.00 | 57.14 | 1.00 |
+| Aurora | 2 (192) | 51.55 | 1.72 | 0.86 | 32.44 | 0.88 |
+| Aurora | 4 (384) | 30.66 | 2.89 | 0.72 | 18.70 | 0.76 |
+| Aurora | 8 (768) | 21.21 | 4.18 | 0.52 | 12.49 | 0.57 |
+| Aurora | 16 (1536) | 19.14 | 4.63 | 0.29 | 10.96 | 0.33 |
+| Polaris | 1 (32) | 235.24 | 1.00 | 1.00 | 152.81 | 1.00 |
+| Polaris | 2 (64) | 129.50 | 1.82 | 0.91 | 82.50 | 0.93 |
+| Polaris | 4 (128) | 68.99 | 3.41 | 0.85 | 42.82 | 0.89 |
+| Polaris | 8 (256) | 43.70 | 5.38 | 0.67 | 26.41 | 0.72 |
+* Aurora runs out of work per rank: at 1,536 ranks each rank holds 32 cells / 6,400 particles, and the 8→16 node step gains only 10 %. Polaris (32 ranks/node) keeps ~6× more work per rank at 8 nodes and scales better.
+* Per node, Aurora is 2.65× faster than Polaris on this problem at 1 node (88.6 s vs 235.2 s).
+* Wall time includes setup (~30 s on Aurora 1 node, mesh + particle creation); TSStep efficiencies are the cleaner metric.
+
+### Weak scaling extended to 64 Aurora nodes: `figs/weak_scaling_v3.png`
+Same per-rank load as Phase 3 (256 cells, 51,200 particles per rank). Fresh 1-node reference in the 32-node job: wall 46.68 s, TSStep 29.60 s (Phase 3: 29.88 s, agrees to 1 %).
+| nodes (ranks) | particles | wall s | eff. (wall) | TSStep s | eff. (TSStep) |
+|---|---|---|---|---|---|
+| 1 (96) | 4.9 M | 46.68 | 1.00 | 29.60 | 1.00 |
+| 32 (3,072) | 157.3 M | 74.35 | 0.63 | 47.33 | 0.63 |
+| 64 (6,144) | 314.6 M | 85.73 | 0.54 | 50.78 | 0.58 |
+* Combined with Phase 3 (TSStep efficiency 0.90/0.87/0.82/0.75 at 2/4/8/16 nodes): 0.63 at 32, 0.58 at 64 nodes. The decline is gradual; 32→64 nodes loses only 7 % (TSStep).
+* Single samples (one run per point, debug-scaling queue, different node allocations): ±5 % noise is plausible. Not investigated which event grows (logviews are in the data).
+
+### Long-run Landau damping: `figs/landau_longrun.png`
+1 rank, k = 0.5, α = 0.01, TSBASICSYMPLECTIC, both machines. W = kinetic + field energy.
+| run | particles | Δt, steps, t_end | max \|ΔW/W₀\| (Aurora / Polaris) | behaviour | fitted γ (t∈[0.5,15.5]) |
+|---|---|---|---|---|---|
+| x10_dt05 | 51,200 | 0.05, 6,000, 300 | 4.39e-3 / 4.40e-3 | flat (~1e-4) to t≈70, then **secular growth**, ~1.9e-5 per unit time | −0.147 |
+| x10_dt01 | 51,200 | 0.01, 6,000, 60 | 3.77e-6 / 3.77e-6 | **bounded**, 2–3.8e-6, no trend | −0.253 (see caveat) |
+| x100_dt05_lowres | 3,200 | 0.05, 60,000, 3000 | 0.818 / 0.805 | **strong secular heating**, ~3e-4 per unit time | −0.123 |
+* The energy error is not bounded in long runs at Δt = 0.05: once the Landau field damps into the particle noise floor (‖E‖ ≈ 2e-4 at t ≈ 40) the field grows back to noise/recurrence level (~0.06) and W drifts linearly. This is the known numerical heating of momentum-conserving, non-energy-conserving PIC; its size scales with the noise (1/particles per cell): the 16× coarser 3,200-particle run heats 80 % by t = 3000. This strengthens the case for energy-conserving (discrete-gradient/implicit) PIC as the next step — do not claim "bounded energy" for ex2.
+* Over the physically interesting window (t ≤ 60 at Δt = 0.01; t ≤ 70 at Δt = 0.05) the error stays at 1e-6–1e-4, consistent with Phase 2.
+* Aurora vs Polaris: Δt = 0.01 run identical to 1e-14 in W (5e-11 in ‖E‖). Δt = 0.05 runs agree to every digit early, then diverge after t ≈ 100 (max ΔW difference 4.5e-5 of W₀; ‖E‖ differs up to 15 %) — chaotic amplification of round-off in the nonlinear phase, not a bug. Low-res runs differ by 2 % in W.
+* γ caveat: the simple peak-envelope fit gives −0.147 (Δt 0.05, theory −0.1533, Phase 2 600-step fit −0.161). At Δt = 0.01 the fit gives −0.25 because output is every step and the fit window includes early transient peaks; treat only the Δt = 0.05 value as a damping-rate check.
+
+### Pusher long runs, 10⁸ steps (box, Δt = 0.2): `figs/pusher_longrun.png`
+| field | method | max \|ΔH/H₀\| | max \|Δp/p₀\| | status |
+|---|---|---|---|---|
+| uniform B | Boris | 4.8e-4 (bounded, oscillating) | 1.8e-3 | done |
+| uniform B | RK4 | 0.668 (secular, saturates ~1e6 steps as energy decays) | 0.232 | done |
+| Solov'ev | Boris | 1.2e-12 | 4.6e-6 (p_φ, bounded) | done |
+| Solov'ev | RK4 | 0.278 | 2.2e-4 | done |
+| both | TSDISCGRAD | ≤ 9e-10 while running | ≤ 5e-7 | **not finished, stalled** |
+* Boris stays bounded for 10⁸ steps (100× Phase 2); RK4 loses 28–67 % of the energy. Clean long-time story for the talk.
+* TSDISCGRAD: with `-ts_max_snes_failures -1` the SNES failures make TS shrink Δt repeatedly; after ~3 h (this restart) uniform reached only t ≈ 80 and Solov'ev t ≈ 3 out of t = 2×10⁷. Its conservation is excellent where it ran, but it is not a 10⁸-step result. Processes still running on the box (6 h timeout); recommend killing them.
+
+### ALCF usage, Phase 4 (nodes × job runtime from START/DONE stamps; PBS-charged walltime slightly higher)
+Aurora: ss 16×3.5 min = 0.94, lr 1×22.4 min = 0.37, ws32 32×2.0 min = 1.08, ws64 64×1.4 min = 1.53 → **3.92 nh**. Polaris: ss 8×8.0 min = 1.06, lr 1×32.6 min = 0.54 → **1.60 nh**. Phase 4 total **≈ 5.5 nh** (cap 40, worst case 34.7). Project total ≈ 13.53 + 5.5 ≈ **19.1 nh**.

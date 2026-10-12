@@ -1,0 +1,1 @@
+method rk4 field uniform steps 100000000 dt 0.2 wall 89.797 s

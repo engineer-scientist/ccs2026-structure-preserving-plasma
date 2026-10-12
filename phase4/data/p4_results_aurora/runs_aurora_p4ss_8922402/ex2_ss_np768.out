@@ -1,0 +1,1639 @@
+dim = 1	totalWeight = 603.185788, ctx->charges[species[0]] = -1.000000	totalCharge = -603.185788, Total Area = 603.185789
+sigma: 1.
+(x0,v0,t0,m0,q0,phi0): (1.000000e+00, 1.000000e+00, 1.000000e+00, 1.000000e+00, 1.000000e+00, 0.000000e+00) - (P, V) = (1.000000e+00, 1.000000e+00)
+[192]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[96]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[256]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[259]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[288]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[151]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[527]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[196]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[326]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[482]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[61]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[377]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[86]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[551]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[292]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[490]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[247]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[65]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[0]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[123]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[113]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[369]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[345]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[88]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[180]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[235]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[182]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[78]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[114]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[236]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[30]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[316]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[363]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[493]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[632]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[276]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[586]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[498]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[588]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[89]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[305]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[590]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[598]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[171]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[618]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[571]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[286]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[621]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[93]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[99]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[257]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[384]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[647]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[112]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[393]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[661]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[404]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[84]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[360]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[414]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[439]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[453]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[58]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[458]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[157]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[455]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[538]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[473]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[608]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[94]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[304]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[475]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[747]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[515]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[250]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[63]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[301]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[438]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[249]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[757]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[424]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[703]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[37]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[178]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[308]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[574]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[465]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[544]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[649]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[707]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[158]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[334]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[728]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[229]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[651]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[187]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[733]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[51]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[208]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[451]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[668]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[28]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[129]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[281]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[507]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[641]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[47]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[120]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[478]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[504]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[734]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[133]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[333]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[737]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[82]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[231]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[612]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[759]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[669]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[45]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[242]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[290]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[557]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[183]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[263]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[672]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[324]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[40]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[124]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[306]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[638]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[690]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[440]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[495]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[692]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[60]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[228]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[336]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[422]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[516]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[648]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[726]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[252]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[375]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[456]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[558]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[742]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[29]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[177]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[394]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[480]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[654]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[8]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[219]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[328]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[619]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[676]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[4]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[186]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[272]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[572]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[687]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[101]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[700]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[79]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[381]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[461]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[203]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[179]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[761]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[335]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[501]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[596]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[71]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[147]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[222]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[372]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[433]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[529]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[765]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[188]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[441]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[535]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[606]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[715]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[74]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[102]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[280]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[319]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[405]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[561]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[593]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[755]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[168]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[284]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[355]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[403]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[547]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[748]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[85]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[172]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[378]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[397]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[640]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[18]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[119]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[204]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[315]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[492]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[696]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[50]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[162]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[275]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[325]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[425]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[528]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[617]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[731]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[42]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[189]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[268]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[323]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[446]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[564]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[645]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[678]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[81]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[111]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[253]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[331]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[434]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[575]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[627]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[677]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[25]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[150]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[230]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[344]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[418]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[487]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[604]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[699]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[59]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[118]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[202]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[321]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[445]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[521]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[630]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[763]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[11]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[164]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[209]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[379]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[512]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[603]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[735]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[62]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[108]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[285]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[309]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[395]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[545]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[589]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[764]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[72]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[174]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[269]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[320]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[443]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[541]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[592]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[706]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[21]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[127]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[193]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[376]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[426]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[506]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[624]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[724]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[22]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[131]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[224]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[329]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[460]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[485]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[605]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[736]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[34]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[135]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[258]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[340]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[477]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[546]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[615]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[719]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[2]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[190]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[212]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[357]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[430]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[555]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[659]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[750]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[46]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[144]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[264]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[358]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[463]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[556]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[666]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[681]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[70]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[143]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[198]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[361]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[398]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[567]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[585]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[705]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[77]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[134]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[225]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[293]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[413]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[562]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[609]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[721]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[5]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[100]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[243]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[318]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[417]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[489]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[657]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[741]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[6]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[104]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[211]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[322]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[387]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[568]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[667]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[675]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[48]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[149]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[237]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[350]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[410]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[509]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[597]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[679]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[76]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[181]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[221]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[365]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[392]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[530]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[652]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[683]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[95]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[139]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[255]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[296]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[435]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[483]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[600]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[753]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[16]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[170]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[265]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[298]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[444]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[540]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[583]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[760]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[17]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[130]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[266]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[299]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[449]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[563]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[582]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[701]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[27]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[146]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[216]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[302]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[459]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[505]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[613]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[711]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[38]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[125]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[239]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[311]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[462]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[508]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[629]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[712]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[43]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[163]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[273]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[342]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[385]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[511]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[655]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[732]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[69]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[140]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[254]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[346]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[429]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[566]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[664]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[738]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[73]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[148]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[271]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[352]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[389]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[569]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[599]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[749]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[92]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[191]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[214]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[359]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[450]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[510]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[591]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[758]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[3]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[115]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[218]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[366]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[401]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[543]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[642]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[682]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[9]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[116]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[274]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[367]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[421]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[560]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[650]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[688]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[10]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[155]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[206]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[289]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[467]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[533]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[580]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[689]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[15]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[156]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[279]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[291]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[386]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[537]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[633]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[693]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[19]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[175]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[227]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[294]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[416]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[488]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[663]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[698]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[26]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[98]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[240]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[297]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[427]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[548]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[594]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[708]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[31]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[107]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[226]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[300]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[428]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[573]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[602]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[723]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[35]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[110]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[261]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[303]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[454]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[484]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[636]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[725]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[36]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[126]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[195]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[307]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[390]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[525]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[576]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[744]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[39]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[117]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[232]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[312]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[420]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[552]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[581]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[745]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[41]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[136]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[278]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[314]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[423]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[497]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[623]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[751]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[56]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[141]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[207]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[327]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[432]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[499]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[631]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[756]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[57]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[154]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[213]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[330]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[399]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[502]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[637]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[762]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[64]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[159]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[238]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[332]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[409]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[550]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[578]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[673]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[66]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[185]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[251]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[338]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[419]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[496]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[579]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[674]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[68]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[103]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[194]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[339]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[431]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[520]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[622]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[680]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[80]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[105]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[199]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[341]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[436]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[522]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[628]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[684]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[83]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[106]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[217]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[343]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[388]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[531]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[634]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[685]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[87]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[109]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[223]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[347]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[391]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[534]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[643]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[686]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[91]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[122]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[245]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[348]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[406]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[539]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[653]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[691]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[1]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[132]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[283]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[349]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[407]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[553]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[665]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[694]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[7]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[138]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[287]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[351]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[408]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[481]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[671]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[695]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[12]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[142]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[197]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[353]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[411]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[491]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[577]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[697]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[13]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[145]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[200]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[354]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[412]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[494]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[584]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[702]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[14]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[152]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[201]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[362]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[415]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[500]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[587]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[704]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[20]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[161]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[205]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[364]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[442]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[513]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[595]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[709]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[23]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[166]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[210]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[368]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[448]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[514]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[601]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[710]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[24]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[167]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[215]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[370]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[471]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[517]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[607]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[713]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[32]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[173]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[220]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[371]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[472]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[518]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[610]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[714]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[33]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[184]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[233]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[374]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[479]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[519]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[611]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[716]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[44]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[97]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[241]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[382]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[396]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[523]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[614]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[717]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[49]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[121]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[244]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[383]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[400]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[524]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[616]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[718]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[52]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[128]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[246]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[295]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[402]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[526]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[620]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[720]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[53]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[137]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[248]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[310]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[437]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[532]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[625]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[722]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[54]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[153]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[260]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[313]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[447]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[542]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[626]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[727]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[55]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[160]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[267]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[317]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[452]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[549]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[635]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[729]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[67]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[165]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[277]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[337]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[457]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[554]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[639]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[730]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[75]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[169]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[282]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[356]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[464]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[559]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[644]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[739]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[90]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[176]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[234]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[373]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[466]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[565]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[646]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[740]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[262]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[380]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[468]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[570]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[656]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[743]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[270]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[469]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[486]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[658]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[746]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[470]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[503]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[660]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[752]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[474]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[536]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[662]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[754]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[476]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[670]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[766]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+[767]PETSC ERROR: PETSc installed without X Windows or Microsoft Graphics on this machine
+proceeding without graphics
+E: 0.050000	-4.942848e+01	5.187090e+01	1.714924	1.999981175430423e-02	-1.698974	-0.792930	603.185788	2.158360296045103e-13	6.033670016206217e+02	3.473269669067844e-01	9830400	(1)
+E: 0.100000	-4.936401e+01	5.180318e+01	1.714356	1.996860100596318e-02	-1.699652	-0.793042	603.185788	2.337591925583027e-13	6.033680533964809e+02	3.467849325458723e-01	9830400	(2)
+E: 0.150000	-4.908357e+01	5.150197e+01	1.711824	1.987499612411975e-02	-1.701693	-0.792617	603.185788	2.501835544288511e-13	6.033698485007294e+02	3.451593016351218e-01	9830400	(3)
+E: 0.200000	-4.874918e+01	5.116719e+01	1.708992	1.971938996138586e-02	-1.705107	-0.792709	603.185788	2.752242878045763e-13	6.033723544594338e+02	3.424569084783270e-01	9830400	(4)
+E: 0.250000	-4.814324e+01	5.051174e+01	1.703392	1.950241024402662e-02	-1.709912	-0.792304	603.185788	3.173086793317736e-13	6.033755557198683e+02	3.386886295736575e-01	9830400	(5)
+E: 0.300000	-4.748344e+01	4.984847e+01	1.697652	1.922497653169284e-02	-1.716134	-0.792808	603.185788	3.025184269755954e-13	6.033793918851995e+02	3.338704966080829e-01	9830400	(6)
+E: 0.350000	-4.665183e+01	4.895228e+01	1.689773	1.888823754875612e-02	-1.723809	-0.792622	603.185788	3.249067681565521e-13	6.033838298496598e+02	3.280223937223130e-01	9830400	(7)
+E: 0.400000	-4.566015e+01	4.791861e+01	1.680504	1.849362020822504e-02	-1.732978	-0.792338	603.185788	3.906389101082652e-13	6.033888097147146e+02	3.211691676762092e-01	9830400	(8)
+E: 0.450000	-4.453924e+01	4.672688e+01	1.669567	1.804280083248374e-02	-1.743696	-0.791631	603.185788	4.114208973504674e-13	6.033942610779084e+02	3.133399637336068e-01	9830400	(9)
+E: 0.500000	-4.326898e+01	4.540778e+01	1.657130	1.753770615862242e-02	-1.756027	-0.791815	603.185788	3.984798602196804e-13	6.034001348076863e+02	3.045680153330247e-01	9830400	(10)
+E: 0.550000	-4.187115e+01	4.393276e+01	1.642788	1.698047988152219e-02	-1.770050	-0.791695	603.185788	4.370531714315007e-13	6.034063120756518e+02	2.948908531603697e-01	9830400	(11)
+E: 0.600000	-4.035421e+01	4.234800e+01	1.626833	1.637349125919640e-02	-1.785859	-0.791285	603.185788	4.277619924941689e-13	6.034127499779077e+02	2.843496276666566e-01	9830400	(12)
+E: 0.650000	-3.874567e+01	4.064981e+01	1.609059	1.571936168947974e-02	-1.803565	-0.791313	603.185788	4.888936477875916e-13	6.034193565160224e+02	2.729893885040029e-01	9830400	(13)
+E: 0.700000	-3.700121e+01	3.882606e+01	1.589123	1.502088612599630e-02	-1.823304	-0.790596	603.185788	4.982819712395781e-13	6.034260487265908e+02	2.608585470904697e-01	9830400	(14)
+E: 0.750000	-3.513607e+01	3.685480e+01	1.566494	1.428090916974096e-02	-1.845244	-0.790666	603.185788	4.241537676641371e-13	6.034327481766795e+02	2.480087998927143e-01	9830400	(15)
+E: 0.800000	-3.325958e+01	3.491304e+01	1.542988	1.350277642175502e-02	-1.869577	-0.790308	603.185788	3.932756897917500e-13	6.034393394986998e+02	2.344948801388564e-01	9830400	(16)
+E: 0.850000	-3.123958e+01	3.278051e+01	1.515616	1.268956568712792e-02	-1.896553	-0.789995	603.185788	2.959715805772589e-13	6.034458118416343e+02	2.203739915703976e-01	9830400	(17)
+E: 0.900000	-2.913653e+01	3.057246e+01	1.485330	1.184500130950118e-02	-1.926465	-0.789652	603.185788	2.000136167801259e-13	6.034520569838610e+02	2.057061590415218e-01	9830400	(18)
+E: 0.950000	-2.700547e+01	2.833517e+01	1.452326	1.097245846320731e-02	-1.959696	-0.789107	603.185788	3.103281520644430e-13	6.034580013156565e+02	1.905533898942029e-01	9830400	(19)
+E: 1.000000	-2.478828e+01	2.600584e+01	1.415071	1.007582216392834e-02	-1.996720	-0.789100	603.185788	3.110844914999689e-13	6.034635942166354e+02	1.749794597555744e-01	9830400	(20)
+E: 1.050000	-2.253557e+01	2.364219e+01	1.373688	9.158528971621173e-03	-2.038174	-0.788635	603.185788	3.544109450359656e-13	6.034687757451993e+02	1.590499166184938e-01	9830400	(21)
+E: 1.100000	-2.023262e+01	2.122915e+01	1.326933	8.224832501119673e-03	-2.084873	-0.788182	603.185788	3.133049375492192e-13	6.034734956546770e+02	1.428314063454295e-01	9830400	(22)
+E: 1.150000	-1.789803e+01	1.877823e+01	1.273655	7.277711810565361e-03	-2.138005	-0.787337	603.185788	3.221728439584126e-13	6.034777153252617e+02	1.263915890061975e-01	9830400	(23)
+E: 1.200000	-1.555165e+01	1.631588e+01	1.212610	6.322374370837111e-03	-2.199120	-0.787475	603.185788	2.896016759734721e-13	6.034814002357632e+02	1.097986952478843e-01	9830400	(24)
+E: 1.250000	-1.319995e+01	1.384988e+01	1.141446	5.361969258843803e-03	-2.270676	-0.787037	603.185788	2.243899510645520e-13	6.034845322376652e+02	9.312123851168859e-02	9830400	(25)
+E: 1.300000	-1.083617e+01	1.136718e+01	1.055653	4.400758847425072e-03	-2.356472	-0.786564	603.185788	5.584144258108381e-13	6.034870970946375e+02	7.642775240332592e-02	9830400	(26)
+E: 1.350000	-8.483684e+00	8.901426e+00	0.949460	3.443741162679738e-03	-2.462969	-0.786694	603.185788	7.109451916065268e-13	6.034890908446507e+02	5.978641988854055e-02	9830400	(27)
+E: 1.400000	-6.142919e+00	6.446417e+00	0.809318	2.491109895999410e-03	-2.603607	-0.785978	603.185788	5.581923812059131e-13	6.034905183278918e+02	4.326467382727495e-02	9830400	(28)
+E: 1.450000	-3.832222e+00	4.021133e+00	0.604348	1.550793204544727e-03	-2.809446	-0.785712	603.185788	7.682951497223200e-13	6.034913938096151e+02	2.692909965954389e-02	9830400	(29)
+E: 1.500000	-1.556958e+00	1.634524e+00	0.213391	6.249643207113758e-04	-3.204145	-0.785781	603.185788	6.426040255469445e-13	6.034917399600699e+02	1.084501087585616e-02	9830400	(30)
+E: 1.550000	+6.751397e-01	7.071702e-01	-0.150476	2.843439732424743e-04	-3.546156	-0.785025	603.185788	1.287796258520046e-12	6.034915858830391e+02	4.925397788725494e-03	9830400	(31)
+E: 1.600000	+2.854324e+00	2.994555e+00	0.476332	1.169804808034426e-03	-2.931887	-0.784562	603.185788	1.275896055474846e-12	6.034909696876628e+02	2.031727133229743e-02	9830400	(32)
+E: 1.650000	+4.967361e+00	5.212615e+00	0.717056	2.032156878077016e-03	-2.692043	-0.782253	603.185788	1.407471361680734e-12	6.034899343594597e+02	3.527339564991094e-02	9830400	(33)
+E: 1.700000	+7.090052e+00	7.457599e+00	0.872599	2.861645360312401e-03	-2.543384	-0.783763	603.185788	1.478595024195783e-12	6.034885293330360e+02	4.973644128283653e-02	9830400	(34)
+E: 1.750000	+8.999905e+00	9.447448e+00	0.975315	3.665538461578102e-03	-2.435862	-0.784412	603.185788	1.420037698540710e-12	6.034868050941579e+02	6.365053613389308e-02	9830400	(35)
+E: 1.800000	+1.088561e+01	1.142602e+01	1.057895	4.428385603927965e-03	-2.353755	-0.783634	603.185788	1.378924752160060e-12	6.034848188754664e+02	7.696540202663578e-02	9830400	(36)
+E: 1.850000	+1.268903e+01	1.331459e+01	1.124328	5.162150020720725e-03	-2.287169	-0.783923	603.185788	1.429002749464559e-12	6.034826256988210e+02	8.963213687128906e-02	9830400	(37)
+E: 1.900000	+1.443747e+01	1.515505e+01	1.180557	5.843680515720668e-03	-2.233314	-0.782780	603.185788	1.485693512659481e-12	6.034802904516980e+02	1.016056021939309e-01	9830400	(38)
+E: 1.950000	+1.596395e+01	1.675590e+01	1.224168	6.499056312843404e-03	-2.187150	-0.782318	603.185788	1.527868109807429e-12	6.034778690473346e+02	1.128440285833454e-01	9830400	(39)
+E: 2.000000	+1.746232e+01	1.833244e+01	1.263220	7.102223955963971e-03	-2.148606	-0.782693	603.185788	1.585065412257336e-12	6.034754222774617e+02	1.233097940576467e-01	9830400	(40)
+E: 2.050000	+1.882230e+01	1.976135e+01	1.295817	7.658207366696305e-03	-2.115873	-0.781905	603.185788	1.542627137141039e-12	6.034730085750092e+02	1.329686658916307e-01	9830400	(41)
+E: 2.100000	+2.010042e+01	2.109147e+01	1.324107	8.168239942604584e-03	-2.087872	-0.782389	603.185788	1.516120562428114e-12	6.034707146939361e+02	1.417946457719319e-01	9830400	(42)
+E: 2.150000	+2.123020e+01	2.227848e+01	1.347886	8.625904543736088e-03	-2.064195	-0.781821	603.185788	1.474865368722433e-12	6.034685180627337e+02	1.497495908456072e-01	9830400	(43)
+E: 2.200000	+2.221671e+01	2.331967e+01	1.367722	9.031505516869532e-03	-2.044240	-0.781668	603.185788	1.497676982431528e-12	6.034664827384247e+02	1.568229470456011e-01	9830400	(44)
+E: 2.250000	+2.313220e+01	2.426790e+01	1.385032	9.385280143991651e-03	-2.027553	-0.781471	603.185788	1.611186878358595e-12	6.034646754249920e+02	1.629955290904045e-01	9830400	(45)
+E: 2.300000	+2.383479e+01	2.503037e+01	1.398467	9.689533813097284e-03	-2.013697	-0.781386	603.185788	1.631274976210406e-12	6.034632005542262e+02	1.682510587743574e-01	9830400	(46)
+E: 2.350000	+2.448918e+01	2.569845e+01	1.409907	9.939232816736933e-03	-2.002647	-0.781457	603.185788	1.813325531396792e-12	6.034619474829701e+02	1.725833860257384e-01	9830400	(47)
+E: 2.400000	+2.497300e+01	2.621661e+01	1.418577	1.013491186858930e-02	-1.994180	-0.781687	603.185788	1.735712268358114e-12	6.034610116560780e+02	1.759850111122770e-01	9830400	(48)
+E: 2.450000	+2.533049e+01	2.659577e+01	1.424813	1.027916839760339e-02	-1.988042	-0.781489	603.185788	1.773598629073447e-12	6.034603751713883e+02	1.784590810521439e-01	9830400	(49)
+E: 2.500000	+2.556950e+01	2.682357e+01	1.428517	1.036770885729588e-02	-1.984317	-0.781761	603.185788	1.769860299982717e-12	6.034600080430455e+02	1.800115128269692e-01	9830400	(50)
+E: 2.550000	+2.565100e+01	2.692096e+01	1.430091	1.040450492922195e-02	-1.982779	-0.781279	603.185788	1.884682080538491e-12	6.034600251211041e+02	1.806362448910585e-01	9830400	(51)
+E: 2.600000	+2.559944e+01	2.686522e+01	1.429190	1.038900416681877e-02	-1.983426	-0.781292	603.185788	1.821210716956845e-12	6.034603669094031e+02	1.803607467774818e-01	9830400	(52)
+E: 2.650000	+2.548369e+01	2.674109e+01	1.427179	1.032078682417756e-02	-1.986287	-0.781848	603.185788	1.761348011886099e-12	6.034610241245319e+02	1.791963143924387e-01	9830400	(53)
+E: 2.700000	+2.509687e+01	2.634687e+01	1.420729	1.019946715365930e-02	-1.991423	-0.779204	603.185788	1.787806014341697e-12	6.034619795175652e+02	1.771629694694178e-01	9830400	(54)
+E: 2.750000	+2.477344e+01	2.592927e+01	1.413790	1.003379097805009e-02	-1.998535	-0.781403	603.185788	1.910954033901291e-12	6.034631998765977e+02	1.742855739411599e-01	9830400	(55)
+E: 2.800000	+2.425894e+01	2.545876e+01	1.405837	9.828784662234701e-03	-2.007500	-0.781847	603.185788	2.004466037597297e-12	6.034646695284237e+02	1.705899299025580e-01	9830400	(56)
+E: 2.850000	+2.364137e+01	2.479795e+01	1.394416	9.569353382988656e-03	-2.019117	-0.782375	603.185788	1.806485516731016e-12	6.034663562667777e+02	1.661085014731921e-01	9830400	(57)
+E: 2.900000	+2.290939e+01	2.405093e+01	1.381132	9.264128052641277e-03	-2.033195	-0.782944	603.185788	1.787587439183724e-12	6.034682230028836e+02	1.608752251037110e-01	9830400	(58)
+E: 2.950000	+2.204778e+01	2.313064e+01	1.364188	8.918384772727331e-03	-2.049714	-0.782257	603.185788	1.814576267022971e-12	6.034702295300883e+02	1.549274786362156e-01	9830400	(59)
+E: 3.000000	+2.110322e+01	2.214820e+01	1.345338	8.542902247622997e-03	-2.068395	-0.782155	603.185788	1.764328266817827e-12	6.034723454493635e+02	1.483054227356562e-01	9830400	(60)
+E: 3.050000	+2.010347e+01	2.108799e+01	1.324035	8.120563096104413e-03	-2.090414	-0.782705	603.185788	1.756515072282028e-12	6.034745295279108e+02	1.410519455735777e-01	9830400	(61)
+E: 3.100000	+1.896046e+01	1.990191e+01	1.298895	7.674329453291950e-03	-2.114960	-0.782954	603.185788	1.608331523517137e-12	6.034767358780321e+02	1.332123771614829e-01	9830400	(62)
+E: 3.150000	+1.777012e+01	1.862306e+01	1.270051	7.197372100952296e-03	-2.142826	-0.782619	603.185788	1.643678249063640e-12	6.034789305872087e+02	1.248340663053737e-01	9830400	(63)
+E: 3.200000	+1.654205e+01	1.736007e+01	1.239551	6.682757825771929e-03	-2.175044	-0.782637	603.185788	1.603411847739267e-12	6.034810758311191e+02	1.159662240778599e-01	9830400	(64)
+E: 3.250000	+1.521291e+01	1.596146e+01	1.203073	6.148189933723430e-03	-2.211253	-0.783142	603.185788	1.291647344636715e-12	6.034831287554911e+02	1.066596834689452e-01	9830400	(65)
+E: 3.300000	+1.383210e+01	1.452256e+01	1.162043	5.586565225744503e-03	-2.252855	-0.783019	603.185788	1.232104696047287e-12	6.034850661108803e+02	9.696744636941226e-02	9830400	(66)
+E: 3.350000	+1.238367e+01	1.299036e+01	1.113621	5.007955285369695e-03	-2.300340	-0.783834	603.185788	1.246343306338105e-12	6.034868542060123e+02	8.694221871060787e-02	9830400	(67)
+E: 3.400000	+1.095018e+01	1.150470e+01	1.060875	4.415908323554105e-03	-2.354980	-0.784346	603.185788	1.274251537619620e-12	6.034884663373005e+02	7.663856955506951e-02	9830400	(68)
+E: 3.450000	+9.441907e+00	9.920619e+00	0.996539	3.814470766148808e-03	-2.418566	-0.784008	603.185788	9.762399222346119e-13	6.034898783322019e+02	6.611164619939533e-02	9830400	(69)
+E: 3.500000	+7.921252e+00	8.316144e+00	0.919922	3.196140447391142e-03	-2.495374	-0.784255	603.185788	1.191810539147298e-12	6.034910790094591e+02	5.541564290791717e-02	9830400	(70)
+E: 3.550000	+6.354182e+00	6.667654e+00	0.823973	2.576321138488664e-03	-2.589000	-0.783811	603.185788	1.167795027345875e-12	6.034920510224540e+02	4.460669737336281e-02	9830400	(71)
+E: 3.600000	+4.829325e+00	5.014809e+00	0.700254	1.966640200130262e-03	-2.706275	-0.784835	603.185788	9.902564879205045e-13	6.034927875745113e+02	3.374134419934829e-02	9830400	(72)
+E: 3.650000	+3.280188e+00	3.439888e+00	0.536544	1.336796260560815e-03	-2.873935	-0.784662	603.185788	8.424580477672805e-13	6.034932845095896e+02	2.287015187254525e-02	9830400	(73)
+E: 3.700000	+1.724668e+00	1.806565e+00	0.256854	7.061661431933611e-04	-3.151093	-0.784966	603.185788	7.621264730417465e-13	6.034935443871547e+02	1.204663031866610e-02	9830400	(74)
+E: 3.750000	+1.909986e-01	2.023587e-01	-0.693878	9.183701680869251e-05	-4.036982	-0.785817	603.185788	2.772226892489016e-13	6.034935724556490e+02	1.335425820260581e-03	9830400	(75)
+E: 3.800000	-1.314444e+00	1.368554e+00	0.136262	5.446752654004949e-04	-3.263862	-0.785540	603.185788	4.457614832809043e-13	6.034933792582015e+02	9.240752552259110e-03	9830400	(76)
+E: 3.850000	-2.794375e+00	2.944751e+00	0.469049	1.150679480171345e-03	-2.939046	-0.785567	603.185788	5.750469544985037e-13	6.034929779520977e+02	1.960445346650202e-02	9830400	(77)
+E: 3.900000	-4.247697e+00	4.461872e+00	0.649517	1.720546645100935e-03	-2.764334	-0.786249	603.185788	4.237443729238066e-13	6.034923881801448e+02	2.971252687596136e-02	9830400	(78)
+E: 3.950000	-5.649931e+00	5.930600e+00	0.773099	2.278742610264018e-03	-2.642305	-0.785952	603.185788	2.914890551153348e-13	6.034916225488237e+02	3.952783658705926e-02	9830400	(79)
+E: 4.000000	-7.010850e+00	7.342185e+00	0.865825	2.827677309996901e-03	-2.548570	-0.787295	603.185788	3.124514535990386e-13	6.034907186425403e+02	4.899542688764946e-02	9830400	(80)
+E: 4.050000	-8.320424e+00	8.727847e+00	0.940907	3.364423168075387e-03	-2.473089	-0.787460	603.185788	4.604996939328032e-13	6.034896931675171e+02	5.808220569595184e-02	9830400	(81)
+E: 4.100000	-9.547735e+00	1.001057e+01	1.000459	3.850043476843886e-03	-2.414534	-0.787199	603.185788	2.279842981067759e-13	6.034885771817376e+02	6.674515327814014e-02	9830400	(82)
+E: 4.150000	-1.072512e+01	1.125548e+01	1.051364	4.325107224773162e-03	-2.364003	-0.786672	603.185788	-5.427949756331429e-14	6.034873884688172e+02	7.495376970615629e-02	9830400	(83)
+E: 4.200000	-1.180439e+01	1.238359e+01	1.092847	4.762529488219994e-03	-2.322162	-0.786886	603.185788	-1.099814683769296e-14	6.034861744627892e+02	8.265834997063883e-02	9830400	(84)
+E: 4.250000	-1.285995e+01	1.349818e+01	1.130275	5.177778095059926e-03	-2.285857	-0.787427	603.185788	-3.133049375492192e-13	6.034849526946990e+02	8.984389059872198e-02	9830400	(85)
+E: 4.300000	-1.380787e+01	1.448528e+01	1.160927	5.563746957218712e-03	-2.254633	-0.787873	603.185788	-2.204729454557963e-13	6.034837493856904e+02	9.647563092527799e-02	9830400	(86)
+E: 4.350000	-1.467799e+01	1.539845e+01	1.187477	5.913440240357546e-03	-2.228160	-0.787127	603.185788	-3.266588388672886e-13	6.034826003539501e+02	1.025298787133735e-01	9830400	(87)
+E: 4.400000	-1.542785e+01	1.618595e+01	1.209138	6.231333766251157e-03	-2.205419	-0.787381	603.185788	-1.660303838857402e-13	6.034815165947784e+02	1.079863944932681e-01	9830400	(88)
+E: 4.450000	-1.612525e+01	1.696717e+01	1.229610	6.501939450523825e-03	-2.186957	-0.787777	603.185788	-1.663773285809356e-13	6.034805257377395e+02	1.128253969525479e-01	9830400	(89)
+E: 4.500000	-1.675161e+01	1.758371e+01	1.245110	6.744666221570442e-03	-2.171040	-0.788690	603.185788	-2.588866621078267e-13	6.034796475927253e+02	1.170311833097234e-01	9830400	(90)
+E: 4.550000	-1.722720e+01	1.807890e+01	1.257172	6.957987144907807e-03	-2.157516	-0.788076	603.185788	-2.507369312176877e-13	6.034789065017476e+02	1.205931582807251e-01	9830400	(91)
+E: 4.600000	-1.760565e+01	1.849243e+01	1.266994	7.116388830685045e-03	-2.147740	-0.787878	603.185788	-2.819099120809909e-13	6.034783071196721e+02	1.235033155429262e-01	9830400	(92)
+E: 4.650000	-1.796199e+01	1.884811e+01	1.275268	7.237216523774879e-03	-2.140428	-0.788398	603.185788	-3.827702044212344e-13	6.034778628351930e+02	1.257558836238140e-01	9830400	(93)
+E: 4.700000	-1.817398e+01	1.908761e+01	1.280752	7.337831688899241e-03	-2.134432	-0.788094	603.185788	-5.270128951295749e-13	6.034775822024773e+02	1.273493467282907e-01	9830400	(94)
+E: 4.750000	-1.829347e+01	1.919577e+01	1.283206	7.392024708723434e-03	-2.131237	-0.788626	603.185788	-5.015228683735717e-13	6.034774647214615e+02	1.282841823854519e-01	9830400	(95)
+E: 4.800000	-1.834538e+01	1.926119e+01	1.284683	7.407804704206888e-03	-2.130310	-0.788771	603.185788	-4.725356390899993e-13	6.034775205172517e+02	1.285697065875323e-01	9830400	(96)
+E: 4.850000	-1.830091e+01	1.916902e+01	1.282600	7.393532926206047e-03	-2.131148	-0.788195	603.185788	-5.254546797672788e-13	6.034777369133654e+02	1.282099025361721e-01	9830400	(97)
+E: 4.900000	-1.813008e+01	1.902994e+01	1.279437	7.344766795766136e-03	-2.134022	-0.788058	603.185788	-3.637229406550091e-13	6.034781112851907e+02	1.272163255581306e-01	9830400	(98)
+E: 4.950000	-1.787161e+01	1.874995e+01	1.273000	7.236928510350460e-03	-2.140446	-0.788250	603.185788	-2.773909574260713e-13	6.034786358233137e+02	1.256057273502578e-01	9830400	(99)
+E: 5.000000	-1.755845e+01	1.844317e+01	1.265836	7.117487154067815e-03	-2.147673	-0.787300	603.185788	-3.378269886056273e-13	6.034792924944194e+02	1.233888136740146e-01	9830400	(100)

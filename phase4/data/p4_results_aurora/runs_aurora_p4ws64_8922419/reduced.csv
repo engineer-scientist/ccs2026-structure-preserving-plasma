@@ -1,0 +1,2 @@
+dir,run,np,ppn,nx,fix,steps_req,rc,Np0,Np1,Q0,Q1,W_rel_drift_max,steps_done,TSStep_max,TSStep_ratio,DMSwarmMigrate_max,DMSwarmMigrate_ratio,DMPlexLocatePoints_max,DMPlexLocatePoints_ratio,SNESSolve_max,SNESSolve_ratio,DMCreateMassMat_max,DMCreateMassMat_ratio,RhsV_max,RhsV_ratio,total_s,wall_s
+runs_aurora_p4ws64_8922419,ws_fix_np6144,6144,96,1572864,1,100,0,314572800,314572800,19301.945226,19301.945226,1.1411e-05,100,5.0783e+01,1.0,3.5523e+01,1.0,3.0757e+01,1.4,1.4104e+01,1.0,8.9882e+00,1.0,4.6372e+01,1.0,7.658e+01,85.7313
