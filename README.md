@@ -7,7 +7,7 @@ It holds the code, data, figures, slides and report for a short study of *struct
 ## Layout
 | path | contents |
 |---|---|
-| `presentation/` | 12-slide talk deck (`.pptx`) plus 2 backup slides (strong scaling, long-run conservation), with speaker notes |
+| `presentation/` | 14-slide, 12-minute talk deck (`.pptx`, incl. strong scaling and long-run conservation; Takeaways last), with speaker notes |
 | `report/` | Full project report (PDF, 46 pp., incl. Phase 4 chapter) written for non-experts |
 | `docs/PLAN.md` | Original research plan and survey |
 | `results/RESULTS.md` | **Main results write-up** (phases 2 and 3), with numbers and caveats |
